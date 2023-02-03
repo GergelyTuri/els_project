@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
     name='els_project',
     version='0.0.1',
-    packages=[''],
+    packages=['google', 'gspread'],
     url='https://github.com/GergelyTuri/els_project',
     license='MIT',
     author='Gergely Turi',
