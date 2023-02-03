@@ -1,0 +1,2 @@
+setuptools~=65.5.1
+google~=3.0.0
