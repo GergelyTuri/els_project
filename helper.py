@@ -1,7 +1,7 @@
-from google.colab import auth
-import gspread
-from google.auth import default
-from google.colab import drive
+# from google.colab import auth
+# import gspread
+# from google.auth import default
+# from google.colab import drive
 
 def g_drive():
     """mounts Google Drive"""
