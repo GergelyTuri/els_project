@@ -1,1 +1,1 @@
-### Code to analyze data for ELS project
+### Codebse for analyzing data recorded from mice.
