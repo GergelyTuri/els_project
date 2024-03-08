@@ -1,4 +1,4 @@
-# Recorded data
+# Recorded data structure and description
 
 ## Description
 
