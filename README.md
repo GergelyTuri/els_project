@@ -1,1 +1,1 @@
-### Codebse for analyzing data recorded from mice.
+### Codeabse for analyzing data recorded from mice.
