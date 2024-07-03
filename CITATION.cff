@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Quanitative Assessment of Stress Enhanced Fear Learning in mice"
+version: 0.1.0
+date-released: 2024-01-01
+
+authors:
+  - family-names: "Turi"
+    given-names: "Gergely"
+    orcid: "https://orcid.org/0000-0001-5651-9459"
+    affiliation: "Columbia University"
+  - family-names: "Chen"
+    given-names: "Novak"
+    orcid: ""
+    affiliation: "Columbia University"
+  - family-names: "Li"
+    given-names: "Ruojun"
+    orcid: ""
+    affiliation: "Columbia University"
+
+keywords:
+  - "stress enhanced fear learning"
+  - "fear conditioning"
+  - "mouse behavior"
+
+repository-code: "https://github.com/yourgithubusername/your-repository-name"
