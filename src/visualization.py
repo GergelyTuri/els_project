@@ -39,7 +39,7 @@ def plot_freezing_time(sefla_data, subset_data, effect_size, pvalue, title_text,
     sns.pointplot(ax=ax2, data=subset_data, x='day', y='freezing', hue=hue, join=True)
     ax2.set_xlabel('')
     ax2.set_ylabel('Freezing Time (sec)')
-    ax2.legend(title='{hue}')
+    ax2.legend(title=hue)
     sns.despine(ax=ax2)
 
     # Add main title
@@ -58,3 +58,58 @@ def plot_freezing_time(sefla_data, subset_data, effect_size, pvalue, title_text,
     plt.savefig(output_filename, format='svg')
     plt.show()
 
+
+
+def create_violin_plot(data, x, y, hue, title, ylabel, significant_syllables):
+    """
+    plots the significant syllables in a violin plot
+
+    Parameters:
+    data (pd.DataFrame): The data to plot (e.g., heading mean, angular velocity, duration, etc.)
+    x (str): The x-axis variable to plot (e.g., syllable index)
+    y (str): The y-axis variable to plot (e.g., angular velocity)
+    hue (str): The hue variable to plot (e.g., sefl vs. control, young vs. old)
+    title (str): The title of the plot
+    ylabel (str): The label of the y-axis (e.g., 'Angular Velocity (deg/s)')
+    significant_syllables (list): The list of significant syllables to plot
+
+    """
+    data = data[data['syllable'].isin(significant_syllables)]
+    if data.empty:
+        return print('No significant syllables to plot')
+    plt.figure(figsize=(10, 6))
+    ax = sns.violinplot(data=data, x=x, y=y, hue=hue, split=True, inner='quartile')
+    plt.title(title)
+    plt.xlabel('Syllable Index')
+    plt.ylabel(ylabel)
+
+    
+    plt.show()
+
+
+def create_box_strip_plot(data, x, y, hue, title, ylabel, significant_syllables, ylim=None):
+    """
+    plots the significant syllables in a box plot
+
+    Parameters:
+    data (pd.DataFrame): The data to plot (e.g., heading mean, angular velocity, duration, etc.)
+    x (str): The x-axis variable to plot (e.g., syllable index)
+    y (str): The y-axis variable to plot (e.g., angular velocity)
+    hue (str): The hue variable to plot (e.g., sefl vs. control, young vs. old)
+    title (str): The title of the plot
+    ylabel (str): The label of the y-axis (e.g., 'Angular Velocity (deg/s)')
+    significant_syllables (list): The list of significant syllables to plot
+
+    """
+    data = data[data['syllable'].isin(significant_syllables)]
+    if data.empty:
+        return print('No significant syllables to plot')
+
+    plt.figure(figsize=(10, 6))
+    sns.boxplot(data=data, x=x, y=y, hue=hue, showfliers=False)
+    
+    plt.title(title)
+    plt.xlabel('Syllable Index')
+    plt.ylabel(ylabel)
+    
+    plt.show()
