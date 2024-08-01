@@ -6,7 +6,10 @@ Visualization Functions for plotting Freezing data, Moseq data, and other data
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-def plot_freezing_time(sefla_data, subset_data, effect_size, pvalue, title_text, hue, output_filename='Freezing Time RM-ANOVA.svg'):
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+def plot_freezing_time(sefla_data, subset_data, effect_size, pvalue, title_text, hue, ylim=[0, 60], output_filename='Freezing Time RM-ANOVA.svg'):
     """
     Plots the preferred subsets of freezing time data for sefla stage and other stages side by side using a double axis plot. 
 
@@ -16,6 +19,7 @@ def plot_freezing_time(sefla_data, subset_data, effect_size, pvalue, title_text,
     effect_size (float): The effect size of the difference between the two groups of data using repeated-measure ANOVA. 
     pvalue (float): The p-value of the difference between the two groups of data using repeated-measure ANOVA.
     title_text (str): The title text to be displayed on the plot specifying the data being compared.
+    ylim (list): The y-axis limits for the plot. Default is [0, 60].
     output_filename (str): The filename to save the plot as. Default is 'figure_2a_freezing_cond.svg'.
 
     Returns:
@@ -27,7 +31,7 @@ def plot_freezing_time(sefla_data, subset_data, effect_size, pvalue, title_text,
     # Plot the sefla data on the first axis
     sns.pointplot(ax=ax1, data=sefla_data, x='day', y='freezing', hue=hue, join=True)
     ax1.set_ylabel('Freezing Time (sec)')
-    ax1.set_ylim([0, 60])
+    ax1.set_ylim(ylim)
     ax1.set_xlabel('')
     ax1.legend().remove()
     sns.despine(ax=ax1)
@@ -54,6 +58,7 @@ def plot_freezing_time(sefla_data, subset_data, effect_size, pvalue, title_text,
     plt.tight_layout(rect=[0, 0, 1, 0.95])  # Adjust rect to make space for the main title
     plt.savefig(output_filename, format='svg')
     plt.show()
+
 
 
 
