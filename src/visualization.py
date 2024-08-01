@@ -7,7 +7,6 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 def plot_freezing_time(sefla_data, subset_data, effect_size, pvalue, title_text, hue, output_filename='Freezing Time RM-ANOVA.svg'):
-
     """
     Plots the preferred subsets of freezing time data for sefla stage and other stages side by side using a double axis plot. 
 
@@ -22,8 +21,6 @@ def plot_freezing_time(sefla_data, subset_data, effect_size, pvalue, title_text,
     Returns:
     A double axis plot comparing the freezing time data between groups for the sefla stage and other stages side by side.
     """
-
-
 
     fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(8, 6), sharey=True, gridspec_kw={'width_ratios': [1, 4]})
 
