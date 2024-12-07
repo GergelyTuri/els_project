@@ -13,6 +13,10 @@ dependencies:
   - ipykernel
   - jupyter
   - pip:
+    - gspread
+    - oauth2client
+    - gspread-dataframe
+    
   
 
   
