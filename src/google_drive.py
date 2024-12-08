@@ -1,13 +1,16 @@
 """Module for loading data from Google Spreadsheet on Google drive."""
 
+import os
+
 import gspread
 import pandas as pd
+from dotenv import load_dotenv
 from gspread_dataframe import get_as_dataframe
 from oauth2client.service_account import ServiceAccountCredentials
 
-SERVICE_ACCOUNT_FILE = (
-    "D:/code/service_acct_keys/circular-acumen-444017-m5-f8dbe069858c.json"
-)
+# Load environment variables from .env file
+load_dotenv()
+
 SCOPES = [
     "https://www.googleapis.com/auth/spreadsheets",
     "https://www.googleapis.com/auth/spreadsheets.readonly",
@@ -26,7 +29,9 @@ class GoogleDrive:
         get_sheet_as_df(sheet_id: str, sheet_name: str = "Sheet1") -> pandas.DataFrame:
     """
 
-    def __init__(self, service_account_file: str = SERVICE_ACCOUNT_FILE):
+    def __init__(self, service_account_file: str = None):
+        if service_account_file is None:
+            service_account_file = os.getenv("SERVICE_ACCOUNT_FILE")
         self.scopes = SCOPES
         self.credentials = ServiceAccountCredentials.from_json_keyfile_name(
             service_account_file, self.scopes
