@@ -1,0 +1,23 @@
+name: els-project
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - pingouin
+  - ipykernel
+  - jupyter
+  - pip:
+    - gspread
+    - oauth2client
+    - gspread-dataframe
+    - python-dotenv
+    
+  
+
+  
