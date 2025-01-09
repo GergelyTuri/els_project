@@ -4,6 +4,43 @@ import pingouin as pg
 from pingouin import power_anova
 
 
+def calculate_age_at_sefla(data):
+    """
+    Calculate 'age_at_sefla' and classify individuals as 'young' based on their age at 'sefla'.
+
+    Parameters:
+        data (pd.DataFrame): A DataFrame containing 'dob', 'date', 'day', 'cohort_id', and 'day' columns.
+
+    Returns:
+        pd.DataFrame: Updated DataFrame with 'age_at_sefla' and 'young' columns.
+    """
+    # Convert 'dob' and 'date' to datetime if they are not already
+    data['dob'] = pd.to_datetime(data['dob'])
+    data['date'] = pd.to_datetime(data['date'])
+    
+    # Initialize 'age_at_sefla' as None
+    data['age_at_sefla'] = None
+
+    # Iterate through the rows to calculate 'age_at_sefla'
+    for idx, row in data.iterrows():
+        if row['day'] == 'sefla':
+            # Calculate age for 'sefla' day
+            data.at[idx, 'age_at_sefla'] = (row['date'] - row['dob']).days / 7
+        else:
+            # Find the 'sefla' day for the same cohort
+            sefla_row = data[(data['cohort_id'] == row['cohort_id']) & (data['day'] == 'sefla')]
+            if not sefla_row.empty:
+                data.at[idx, 'age_at_sefla'] = sefla_row.iloc[0]['age_at_sefla']
+
+    # Convert 'age_at_sefla' to float
+    data['age_at_sefla'] = data['age_at_sefla'].astype(float)
+
+    # Create the 'young' column based on the 'age_at_sefla' value
+    data['young'] = (data['age_at_sefla'] < 12).astype(str)
+
+    return data
+
+
 class AnalysisTools:
     def __init__(self, data):
         """
@@ -42,38 +79,3 @@ class AnalysisTools:
             "required_sample_size": required_sample_size
         }
 
-    def calculate_age_at_sefla(data):
-        """
-        Calculate 'age_at_sefla' and classify individuals as 'young' based on their age at 'sefla'.
-
-        Parameters:
-            data (pd.DataFrame): A DataFrame containing 'dob', 'date', 'day', 'cohort_id', and 'day' columns.
-
-        Returns:
-            pd.DataFrame: Updated DataFrame with 'age_at_sefla' and 'young' columns.
-        """
-        # Convert 'dob' and 'date' to datetime if they are not already
-        data['dob'] = pd.to_datetime(data['dob'])
-        data['date'] = pd.to_datetime(data['date'])
-        
-        # Initialize 'age_at_sefla' as None
-        data['age_at_sefla'] = None
-
-        # Iterate through the rows to calculate 'age_at_sefla'
-        for idx, row in data.iterrows():
-            if row['day'] == 'sefla':
-                # Calculate age for 'sefla' day
-                data.at[idx, 'age_at_sefla'] = (row['date'] - row['dob']).days / 7
-            else:
-                # Find the 'sefla' day for the same cohort
-                sefla_row = data[(data['cohort_id'] == row['cohort_id']) & (data['day'] == 'sefla')]
-                if not sefla_row.empty:
-                    data.at[idx, 'age_at_sefla'] = sefla_row.iloc[0]['age_at_sefla']
-
-        # Convert 'age_at_sefla' to float
-        data['age_at_sefla'] = data['age_at_sefla'].astype(float)
-
-        # Create the 'young' column based on the 'age_at_sefla' value
-        data['young'] = (data['age_at_sefla'] < 12).astype(str)
-
-        return data
