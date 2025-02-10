@@ -63,6 +63,9 @@ class AnalysisTools:
         Returns:
             dict: Results including ANOVA summary and required sample size per group.
         """
+
+        self.data = self.data[(self.data['day'] != 'sefla') & (self.data['day'] != 'recall5')]
+
         # Perform the repeated measures ANOVA
         anova_result = pg.mixed_anova(
             data=self.data, dv=dv, within=within, between=between, subject=subject, effsize="np2"
@@ -79,3 +82,42 @@ class AnalysisTools:
             "required_sample_size": required_sample_size
         }
 
+    def post_hoc_analysis_significant(self, dv, within, between, subject, p_adjust='bonferroni', alpha=0.05):
+        """
+        Perform post hoc pairwise comparisons and display only significant results.
+
+        Parameters:
+            dv (str): Dependent variable column name.
+            within (str): Within-subject factor column name (e.g., day).
+            between (str): Between-subject factor column name (e.g., group).
+            subject (str): Subject identifier column name.
+            p_adjust (str): Method for p-value adjustment (default: 'bonferroni').
+            alpha (float): Significance level for filtering results (default: 0.05).
+
+        Returns:
+            DataFrame: Filtered table showing only significant comparisons.
+        """
+
+        self.data = self.data[(self.data['day'] != 'sefla') & (self.data['day'] != 'recall5')]
+
+        # Perform pairwise t-tests
+        pairwise_results = pg.pairwise_tests(
+            data=self.data,
+            dv=dv,
+            between=between,
+            within=within,
+            subject=subject,
+            padjust=p_adjust,
+            effsize='cohen'
+        )
+
+        # Filter for significant results
+        significant_results = pairwise_results[pairwise_results['p-corr'] < alpha]
+
+        # Select relevant columns
+        significant_results = significant_results[['Contrast', 'day', 'A', 'B', 'p-corr', 'cohen']]
+
+        # Rename columns
+        significant_results.rename(columns={'cohen': "Cohen'd"}, inplace=True)
+
+        return significant_results
