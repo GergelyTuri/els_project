@@ -1,6 +1,8 @@
 import pandas as pd 
 import numpy as np
 
+import pandas as pd
+
 def find_freeze_transitions(freeze_frame_data):
     '''
     Identifies the timestamps where the 'freeze' in the freezeframe transitions: 
@@ -11,33 +13,43 @@ def find_freeze_transitions(freeze_frame_data):
     - freeze_frame_data: freeze frame DataFrame with a 'freeze' column
 
     Returns:
-    - A DataFrame with columns ['t(sec)', 'transition_type'] where the 
-    'transition_type' column indicates the type of transition (offset or onset)
+    - A DataFrame with columns ['t(sec)', 'transition_type', 'cohort_id', 'day'],
+      sorted by 'cohort_id', 'day', and 't(sec)' (if available).
     '''
 
     if 'freeze' not in freeze_frame_data.columns: 
-        raise ValueError('Input Dataframe does not contain a "freeze" column')
+        raise ValueError('Input DataFrame does not contain a "freeze" column')
     
     df = freeze_frame_data.copy()
     
+    # Shift freeze values to detect transitions
     df['freeze_shifted'] = df['freeze'].shift(1, fill_value=0)
 
-    #find transitions 
-    offset_transitions = df[(df['freeze_shifted'] == 1) & (df['freeze'] == 0)]
-    offset_transitions = offset_transitions[['t(sec)']].copy()
+    # Find transition points
+    offset_transitions = df[(df['freeze_shifted'] == 1) & (df['freeze'] == 0)][['time']].copy()
     offset_transitions['transition_type'] = 'offset'
 
-    onset_transitions = df[(df['freeze_shifted'] == 0) & (df['freeze'] == 1)]
-    onset_transitions = onset_transitions[['t(sec)']].copy()
+    onset_transitions = df[(df['freeze_shifted'] == 0) & (df['freeze'] == 1)][['time']].copy()
     onset_transitions['transition_type'] = 'onset'
 
-    # combine transitions and return final dataframe
-    all_transitions = pd.concat([offset_transitions, onset_transitions], 
-                                ignore_index=True)
-    all_transitions = all_transitions.sort_values(by='t(sec)').reset_index(
-        drop=True) 
+    # Ensure 'cohort_id' and 'day' are preserved properly
+    for col in ['cohort_id', 'day']:
+        if col in freeze_frame_data.columns:
+            offset_transitions[col] = df.loc[offset_transitions.index, col].values
+            onset_transitions[col] = df.loc[onset_transitions.index, col].values
+        else:
+            offset_transitions[col] = None
+            onset_transitions[col] = None
+
+    # Combine transitions
+    all_transitions = pd.concat([offset_transitions, onset_transitions], ignore_index=True)
+
+    # Sort by 'cohort_id', 'day', and 't(sec)' if they exist
+    sort_columns = [col for col in ['cohort_id', 'day', 'time'] if col in all_transitions.columns]
+    all_transitions = all_transitions.sort_values(by=sort_columns).reset_index(drop=True)
 
     return all_transitions
+
 
 def calculate_median_freeze_duration(freeze_frame_data):
     '''
