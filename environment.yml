@@ -8,8 +8,10 @@ dependencies:
   - numpy
   - pandas
   - matplotlib
+  - h5py
   - seaborn
-  - pingouin
+  - scikit-learn
+  - pingouin=0.5.5
   - ipykernel
   - jupyter
   - pip:
