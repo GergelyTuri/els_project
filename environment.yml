@@ -4,12 +4,14 @@ channels:
   - conda-forge
 dependencies:
   - python=3.10
+  - h5py
+  - scikit-learn
   - pip
   - numpy
   - pandas
   - matplotlib
   - seaborn
-  - pingouin
+  - pingouin=0.5.5
   - ipykernel
   - jupyter
   - pip:
@@ -17,6 +19,8 @@ dependencies:
     - oauth2client
     - gspread-dataframe
     - python-dotenv
+    - natsort
+    - google-auth
     
   
 
