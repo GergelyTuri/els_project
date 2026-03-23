@@ -1,12 +1,12 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name='els_project',
     version='0.0.1',
-    packages=[],
+    packages=find_packages(),
     url='https://github.com/GergelyTuri/els_project',
     license='MIT',
     author='Gergely Turi',
-    author_email='gt2253@cumc.columbia.edu',
+    author_email='gergely.turi@utsouthwestern.edu',
     description='base code for analyzing ELS data'
 )
