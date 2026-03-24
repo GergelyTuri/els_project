@@ -1,0 +1,501 @@
+freezing_1s,freezing,genotype,id,day,condition,sex,cohort,exposure_mins,analyzed_duration,date,time,els,psilocybin,cohort_id,dob,age_at_sefla,young,Age
+2.476,5.03,wt,81,SEFLA,control,male,ptsd2,60.0,60.0,2021-04-28,11:59 AM,n,n,ptsd2_81,2021-02-16,10.142857142857142,True,Young Adult
+0.445,0.45,wt,81,SEFLB,control,male,ptsd2,3.5,3.5,2021-04-29,4:40 PM,n,n,ptsd2_81,2021-02-16,10.142857142857142,True,Young Adult
+3.92,8.28,wt,81,Recall 1,control,male,ptsd2,5.0,5.0,2021-04-30,1:37 PM,n,n,ptsd2_81,2021-02-16,10.142857142857142,True,Young Adult
+3.114,7.12,wt,81,Recall 2,control,male,ptsd2,5.0,5.0,2021-05-03,10:17 AM,n,n,ptsd2_81,2021-02-16,10.142857142857142,True,Young Adult
+3.032,7.57,wt,81,Recall 3,control,male,ptsd2,5.0,5.0,2021-05-05,10:04 AM,n,n,ptsd2_81,2021-02-16,10.142857142857142,True,Young Adult
+3.042,6.61,wt,81,Recall 4,control,male,ptsd2,5.0,5.0,2021-05-19,10:24 AM,n,n,ptsd2_81,2021-02-16,10.142857142857142,True,Young Adult
+1.778,3.92,wt,81,recall5,control,male,ptsd2,5.0,5.0,2021-06-02,10:03 AM,n,n,ptsd2_81,2021-02-16,10.142857142857142,True,Young Adult
+5.821,8.83,wt,82,SEFLA,control,male,ptsd2,60.0,60.0,2021-04-28,11:59 AM,n,n,ptsd2_82,2021-02-16,10.142857142857142,True,Young Adult
+1.89,4.2,wt,82,SEFLB,control,male,ptsd2,3.5,3.5,2021-04-29,5:09 PM,n,n,ptsd2_82,2021-02-16,10.142857142857142,True,Young Adult
+25.062,28.8,wt,82,Recall 1,control,male,ptsd2,5.0,5.0,2021-04-30,2:00 PM,n,n,ptsd2_82,2021-02-16,10.142857142857142,True,Young Adult
+6.766,11.14,wt,82,Recall 2,control,male,ptsd2,5.0,5.0,2021-05-03,10:43 AM,n,n,ptsd2_82,2021-02-16,10.142857142857142,True,Young Adult
+1.43,3.22,wt,82,Recall 3,control,male,ptsd2,5.0,5.0,2021-05-05,10:27 AM,n,n,ptsd2_82,2021-02-16,10.142857142857142,True,Young Adult
+2.237136465,2.24,wt,82,Recall 4,control,male,ptsd2,5.0,5.0,2021-05-19,10:53 AM,n,n,ptsd2_82,2021-02-16,10.142857142857142,True,Young Adult
+0.892,3.74,wt,82,recall5,control,male,ptsd2,5.0,5.0,2021-06-02,10:29 AM,n,n,ptsd2_82,2021-02-16,10.142857142857142,True,Young Adult
+1.023833333,2.6,wt,91,SEFLA,control,male,ptsd2,60.0,60.0,2021-04-28,11:59 AM,n,n,ptsd2_91,2021-02-16,10.142857142857142,True,Young Adult
+1.68,2.73,wt,91,SEFLB,control,male,ptsd2,3.5,3.5,2021-04-29,4:40 PM,n,n,ptsd2_91,2021-02-16,10.142857142857142,True,Young Adult
+12.476,14.97,wt,91,Recall 1,control,male,ptsd2,5.0,5.0,2021-04-30,1:37 PM,n,n,ptsd2_91,2021-02-16,10.142857142857142,True,Young Adult
+9.72,11.68,wt,91,Recall 2,control,male,ptsd2,5.0,5.0,2021-05-03,10:17 AM,n,n,ptsd2_91,2021-02-16,10.142857142857142,True,Young Adult
+5.612,9.8,wt,91,Recall 3,control,male,ptsd2,5.0,5.0,2021-05-05,10:04 AM,n,n,ptsd2_91,2021-02-16,10.142857142857142,True,Young Adult
+3.74,7.3,wt,91,Recall 4,control,male,ptsd2,5.0,5.0,2021-05-19,10:24 AM,n,n,ptsd2_91,2021-02-16,10.142857142857142,True,Young Adult
+1.424,4.0,wt,91,recall5,control,male,ptsd2,5.0,5.0,2021-06-02,10:03 AM,n,n,ptsd2_91,2021-02-16,10.142857142857142,True,Young Adult
+0.5855,1.91,wt,92,SEFLA,control,male,ptsd2,60.0,60.0,2021-04-28,11:59 AM,n,n,ptsd2_92,2021-02-16,10.142857142857142,True,Young Adult
+1.89,2.53,wt,92,SEFLB,control,male,ptsd2,3.5,3.5,2021-04-29,5:09 PM,n,n,ptsd2_92,2021-02-16,10.142857142857142,True,Young Adult
+9.964,14.42,wt,92,Recall 1,control,male,ptsd2,5.0,5.0,2021-04-30,2:00 PM,n,n,ptsd2_92,2021-02-16,10.142857142857142,True,Young Adult
+1.424,3.11,wt,92,Recall 2,control,male,ptsd2,5.0,5.0,2021-05-03,10:43 AM,n,n,ptsd2_92,2021-02-16,10.142857142857142,True,Young Adult
+0.358,2.94,wt,92,Recall 3,control,male,ptsd2,5.0,5.0,2021-05-05,10:27 AM,n,n,ptsd2_92,2021-02-16,10.142857142857142,True,Young Adult
+12.664,14.89,wt,92,Recall 4,control,male,ptsd2,5.0,5.0,2021-05-19,10:53 AM,n,n,ptsd2_92,2021-02-16,10.142857142857142,True,Young Adult
+0.0,22.82,wt,92,recall5,control,male,ptsd2,5.0,5.0,2021-06-02,11:03 AM,n,n,ptsd2_92,2021-02-16,10.142857142857142,True,Young Adult
+49.85333333,50.64,wt,84,SEFLA,sefl,male,ptsd2,60.0,60.0,2021-04-28,1:24 PM,n,n,ptsd2_84,2021-02-16,10.142857142857142,True,Young Adult
+7.4125,10.14,wt,84,SEFLB,sefl,male,ptsd2,3.5,3.5,2021-04-29,5:09 PM,n,n,ptsd2_84,2021-02-16,10.142857142857142,True,Young Adult
+21.824,25.39,wt,84,Recall 1,sefl,male,ptsd2,5.0,5.0,2021-04-30,2:00 PM,n,n,ptsd2_84,2021-02-16,10.142857142857142,True,Young Adult
+23.13,27.24,wt,84,Recall 2,sefl,male,ptsd2,5.0,5.0,2021-05-03,10:43 AM,n,n,ptsd2_84,2021-02-16,10.142857142857142,True,Young Adult
+7.764,11.23,wt,84,Recall 3,sefl,male,ptsd2,5.0,5.0,2021-05-05,10:27 AM,n,n,ptsd2_84,2021-02-16,10.142857142857142,True,Young Adult
+2.232,5.62,wt,84,Recall 4,sefl,male,ptsd2,5.0,5.0,2021-05-19,10:53 AM,n,n,ptsd2_84,2021-02-16,10.142857142857142,True,Young Adult
+0.0,17.64,wt,84,recall5,sefl,male,ptsd2,5.0,5.0,2021-06-02,10:29 AM,n,n,ptsd2_84,2021-02-16,10.142857142857142,True,Young Adult
+37.60533333,39.63,wt,93,SEFLA,sefl,male,ptsd2,60.0,60.0,2021-04-28,1:24 PM,n,n,ptsd2_93,2021-02-16,10.142857142857142,True,Young Adult
+4.84,8.63,wt,93,SEFLB,sefl,male,ptsd2,3.5,3.5,2021-04-29,4:40 PM,n,n,ptsd2_93,2021-02-16,10.142857142857142,True,Young Adult
+19.768,24.05,wt,93,Recall 1,sefl,male,ptsd2,5.0,5.0,2021-04-30,1:37 PM,n,n,ptsd2_93,2021-02-16,10.142857142857142,True,Young Adult
+10.27,15.98,wt,93,Recall 2,sefl,male,ptsd2,5.0,5.0,2021-05-03,10:17 AM,n,n,ptsd2_93,2021-02-16,10.142857142857142,True,Young Adult
+9.192,17.3,wt,93,Recall 3,sefl,male,ptsd2,5.0,5.0,2021-05-05,10:04 AM,n,n,ptsd2_93,2021-02-16,10.142857142857142,True,Young Adult
+4.188,7.4,wt,93,Recall 4,sefl,male,ptsd2,5.0,5.0,2021-05-19,10:24 AM,n,n,ptsd2_93,2021-02-16,10.142857142857142,True,Young Adult
+4.372,8.82,wt,93,recall5,sefl,male,ptsd2,5.0,5.0,2021-06-02,10:03 AM,n,n,ptsd2_93,2021-02-16,10.142857142857142,True,Young Adult
+46.2205,47.82,wt,94,SEFLA,sefl,male,ptsd2,60.0,60.0,2021-04-28,1:24 PM,n,n,ptsd2_94,2021-02-16,10.142857142857142,True,Young Adult
+14.9975,18.26,wt,94,SEFLB,sefl,male,ptsd2,3.5,3.5,2021-04-29,5:09 PM,n,n,ptsd2_94,2021-02-16,10.142857142857142,True,Young Adult
+34.582,38.23,wt,94,Recall 1,sefl,male,ptsd2,5.0,5.0,2021-04-30,2:00 PM,n,n,ptsd2_94,2021-02-16,10.142857142857142,True,Young Adult
+13.82,19.08,wt,94,Recall 2,sefl,male,ptsd2,5.0,5.0,2021-05-03,10:43 AM,n,n,ptsd2_94,2021-02-16,10.142857142857142,True,Young Adult
+3.204,6.23,wt,94,Recall 3,sefl,male,ptsd2,5.0,5.0,2021-05-05,10:27 AM,n,n,ptsd2_94,2021-02-16,10.142857142857142,True,Young Adult
+8.378,11.68,wt,94,Recall 4,sefl,male,ptsd2,5.0,5.0,2021-05-19,10:53 AM,n,n,ptsd2_94,2021-02-16,10.142857142857142,True,Young Adult
+15.954,0.44,wt,94,recall5,sefl,male,ptsd2,5.0,5.0,2021-06-02,10:29 AM,n,n,ptsd2_94,2021-02-16,10.142857142857142,True,Young Adult
+27.72583333,31.65,wt,85,SEFLA,sefl,male,ptsd2,60.0,60.0,2021-04-28,2:42 PM,n,n,ptsd2_85,2021-02-16,10.142857142857142,True,Young Adult
+14.88,18.38,wt,85,SEFLB,sefl,male,ptsd2,3.5,3.5,2021-04-29,5:28 PM,n,n,ptsd2_85,2021-02-16,10.142857142857142,True,Young Adult
+29.758,31.89,wt,85,Recall 1,sefl,male,ptsd2,5.0,5.0,2021-04-30,2:17 PM,n,n,ptsd2_85,2021-02-16,10.142857142857142,True,Young Adult
+13.27,18.97,wt,85,Recall 2,sefl,male,ptsd2,5.0,5.0,2021-05-03,11:04 AM,n,n,ptsd2_85,2021-02-16,10.142857142857142,True,Young Adult
+9.608938547,9.61,wt,85,Recall 3,sefl,male,ptsd2,5.0,5.0,2021-05-05,10:43 AM,n,n,ptsd2_85,2021-02-16,10.142857142857142,True,Young Adult
+13.41077086,13.41,wt,85,Recall 4,sefl,male,ptsd2,5.0,5.0,2021-05-19,11:13 AM,n,n,ptsd2_85,2021-02-16,10.142857142857142,True,Young Adult
+0.716,2.41,wt,85,recall5,sefl,male,ptsd2,5.0,5.0,2021-06-02,10:49 AM,n,n,ptsd2_85,2021-02-16,10.142857142857142,True,Young Adult
+47.61733333,48.94,wt,95,SEFLA,sefl,male,ptsd2,60.0,60.0,2021-04-28,2:42 PM,n,n,ptsd2_95,2021-02-16,10.142857142857142,True,Young Adult
+14.525,15.39,wt,95,SEFLB,sefl,male,ptsd2,3.5,3.5,2021-04-29,5:28 PM,n,n,ptsd2_95,2021-02-16,10.142857142857142,True,Young Adult
+49.51024043,49.51,wt,95,Recall 1,sefl,male,ptsd2,5.0,5.0,2021-04-30,2:17 PM,n,n,ptsd2_95,2021-02-16,10.142857142857142,True,Young Adult
+26.59974906,26.6,wt,95,Recall 2,sefl,male,ptsd2,5.0,5.0,2021-05-03,11:04 AM,n,n,ptsd2_95,2021-02-16,10.142857142857142,True,Young Adult
+18.106,21.4,wt,95,Recall 3,sefl,male,ptsd2,5.0,5.0,2021-05-05,10:43 AM,n,n,ptsd2_95,2021-02-16,10.142857142857142,True,Young Adult
+22.79957582,22.8,wt,95,Recall 4,sefl,male,ptsd2,5.0,5.0,2021-05-19,11:13 AM,n,n,ptsd2_95,2021-02-16,10.142857142857142,True,Young Adult
+14.88,4.19,wt,95,recall5,sefl,male,ptsd2,5.0,5.0,2021-06-02,10:49 AM,n,n,ptsd2_95,2021-02-16,10.142857142857142,True,Young Adult
+52.6045,54.36,wt,83,SEFLA,sefl,male,ptsd2,60.0,60.0,2021-04-28,2:42 PM,n,n,ptsd2_83,2021-02-16,10.142857142857142,True,Young Adult
+12.91,16.9,wt,83,SEFLB,sefl,male,ptsd2,3.5,3.5,2021-04-29,4:40 PM,n,n,ptsd2_83,2021-02-16,10.142857142857142,True,Young Adult
+33.278,38.53,wt,83,Recall 1,sefl,male,ptsd2,5.0,5.0,2021-04-30,1:37 PM,n,n,ptsd2_83,2021-02-16,10.142857142857142,True,Young Adult
+23.43,27.71,wt,83,Recall 2,sefl,male,ptsd2,5.0,5.0,2021-05-03,10:17 AM,n,n,ptsd2_83,2021-02-16,10.142857142857142,True,Young Adult
+4.016,12.03,wt,83,Recall 3,sefl,male,ptsd2,5.0,5.0,2021-05-05,10:04 AM,n,n,ptsd2_83,2021-02-16,10.142857142857142,True,Young Adult
+20.938,25.84,wt,83,Recall 4,sefl,male,ptsd2,5.0,5.0,2021-05-19,10:24 AM,n,n,ptsd2_83,2021-02-16,10.142857142857142,True,Young Adult
+4.19,8.38,wt,83,recall5,sefl,male,ptsd2,5.0,5.0,2021-06-02,10:03 AM,n,n,ptsd2_83,2021-02-16,10.142857142857142,True,Young Adult
+6.15116667,6.15,wt,2,SEFLA,control,male,ptsd3,60.0,60.0,2021-05-19,1:00 PM,n,n,ptsd3_2,2021-01-15,17.714285714285715,False,Adult
+1.05,1.72,wt,2,SEFLB,control,male,ptsd3,3.5,3.5,2021-05-20,10:09 AM,n,n,ptsd3_2,2021-01-15,17.714285714285715,False,Adult
+12.392,19.43,wt,2,Recall 1,control,male,ptsd3,5.0,5.0,2021-05-21,10:13 AM,n,n,ptsd3_2,2021-01-15,17.714285714285715,False,Adult
+9.76,14.3,wt,2,Recall 2,control,male,ptsd3,5.0,5.0,2021-05-24,2:29 PM,n,n,ptsd3_2,2021-01-15,17.714285714285715,False,Adult
+12.55,18.87,wt,2,Recall 3,control,male,ptsd3,5.0,5.0,2021-05-26,12:11 PM,n,n,ptsd3_2,2021-01-15,17.714285714285715,False,Adult
+7.224,11.77,wt,2,Recall 4,control,male,ptsd3,5.0,5.0,2021-06-04,2:47 PM,n,n,ptsd3_2,2021-01-15,17.714285714285715,False,Adult
+5.252,13.8,wt,2,recall5,control,male,ptsd3,5.0,5.0,2021-06-24,1:41 PM,n,n,ptsd3_2,2021-01-15,17.714285714285715,False,Adult
+41.8555,41.86,wt,4,SEFLA,control,male,ptsd3,60.0,60.0,2021-05-19,1:00 PM,n,n,ptsd3_4,2021-02-14,13.428571428571429,False,Adult
+0.445,1.75,wt,4,SEFLB,control,male,ptsd3,3.5,3.5,2021-05-20,10:09 AM,n,n,ptsd3_4,2021-02-14,13.428571428571429,False,Adult
+26.32,28.55,wt,4,Recall 1,control,male,ptsd3,5.0,5.0,2021-05-21,10:13 AM,n,n,ptsd3_4,2021-02-14,13.428571428571429,False,Adult
+6.334,9.28,wt,4,Recall 2,control,male,ptsd3,5.0,5.0,2021-05-24,2:29 PM,n,n,ptsd3_4,2021-02-14,13.428571428571429,False,Adult
+26.224,30.06,wt,4,Recall 3,control,male,ptsd3,5.0,5.0,2021-05-26,12:11 PM,n,n,ptsd3_4,2021-02-14,13.428571428571429,False,Adult
+5.356,5.36,wt,6,SEFLA,control,male,ptsd3,60.0,60.0,2021-05-19,1:00 PM,n,n,ptsd3_6,2021-03-05,10.714285714285714,True,Young Adult
+0.0,0.0,wt,6,SEFLB,control,male,ptsd3,3.5,3.5,2021-05-20,10:39 AM,n,n,ptsd3_6,2021-03-05,10.714285714285714,True,Young Adult
+13.124,21.52,wt,6,Recall 1,control,male,ptsd3,5.0,5.0,2021-05-21,10:38 AM,n,n,ptsd3_6,2021-03-05,10.714285714285714,True,Young Adult
+3.832,9.54,wt,6,Recall 2,control,male,ptsd3,5.0,5.0,2021-05-24,2:53 PM,n,n,ptsd3_6,2021-03-05,10.714285714285714,True,Young Adult
+1.25,6.06,wt,6,Recall 3,control,male,ptsd3,5.0,5.0,2021-05-26,12:39 PM,n,n,ptsd3_6,2021-03-05,10.714285714285714,True,Young Adult
+3.478,8.47,wt,6,Recall 4,control,male,ptsd3,5.0,5.0,2021-06-04,3:03 PM,n,n,ptsd3_6,2021-03-05,10.714285714285714,True,Young Adult
+5.692,16.74,wt,6,recall5,control,male,ptsd3,5.0,5.0,2021-06-24,2:02 PM,n,n,ptsd3_6,2021-03-05,10.714285714285714,True,Young Adult
+1.02266667,1.02,wt,8,SEFLA,control,male,ptsd3,60.0,60.0,2021-05-19,2:24 PM,n,n,ptsd3_8,2021-03-05,10.714285714285714,True,Young Adult
+0.0,0.0,wt,8,SEFLB,control,male,ptsd3,3.5,3.5,2021-05-20,10:39 AM,n,n,ptsd3_8,2021-03-05,10.714285714285714,True,Young Adult
+17.474,20.41,wt,8,Recall 1,control,male,ptsd3,5.0,5.0,2021-05-21,10:38 AM,n,n,ptsd3_8,2021-03-05,10.714285714285714,True,Young Adult
+1.252,2.68,wt,8,Recall 2,control,male,ptsd3,5.0,5.0,2021-05-24,2:53 PM,n,n,ptsd3_8,2021-03-05,10.714285714285714,True,Young Adult
+4.536,9.97,wt,8,Recall 3,control,male,ptsd3,5.0,5.0,2021-05-26,12:39 PM,n,n,ptsd3_8,2021-03-05,10.714285714285714,True,Young Adult
+0.356,2.14,wt,8,Recall 4,control,male,ptsd3,5.0,5.0,2021-06-04,3:03 PM,n,n,ptsd3_8,2021-03-05,10.714285714285714,True,Young Adult
+10.946,23.87,wt,8,recall5,control,male,ptsd3,5.0,5.0,2021-06-24,2:02 PM,n,n,ptsd3_8,2021-03-05,10.714285714285714,True,Young Adult
+4.4515,4.45,wt,10,SEFLA,sefl,male,ptsd3,60.0,60.0,2021-05-19,2:24 PM,n,n,ptsd3_10,2021-02-22,12.285714285714286,False,Adult
+6.8575,9.56,wt,10,SEFLB,sefl,male,ptsd3,3.5,3.5,2021-05-20,11:04 AM,n,n,ptsd3_10,2021-02-22,12.285714285714286,False,Adult
+51.1,54.05,wt,10,Recall 1,sefl,male,ptsd3,5.0,5.0,2021-05-21,11:16 AM,n,n,ptsd3_10,2021-02-22,12.285714285714286,False,Adult
+16.592,25.32,wt,10,Recall 2,sefl,male,ptsd3,5.0,5.0,2021-05-24,3:11 PM,n,n,ptsd3_10,2021-02-22,12.285714285714286,False,Adult
+23.262,26.56,wt,10,Recall 3,sefl,male,ptsd3,5.0,5.0,2021-05-26,1:01 PM,n,n,ptsd3_10,2021-02-22,12.285714285714286,False,Adult
+24.914,30.26,wt,10,Recall 4,sefl,male,ptsd3,5.0,5.0,2021-06-04,3:16 PM,n,n,ptsd3_10,2021-02-22,12.285714285714286,False,Adult
+33.642,42.19,wt,10,recall5,sefl,male,ptsd3,5.0,5.0,2021-06-24,2:21 PM,n,n,ptsd3_10,2021-02-22,12.285714285714286,False,Adult
+4.4425,4.44,wt,12,SEFLA,sefl,male,ptsd3,60.0,60.0,2021-05-19,2:24 PM,n,n,ptsd3_12,2021-01-03,19.428571428571427,False,Adult
+0.0,0.78,wt,12,SEFLB,sefl,male,ptsd3,3.5,3.5,2021-05-20,11:04 AM,n,n,ptsd3_12,2021-01-03,19.428571428571427,False,Adult
+28.912,36.05,wt,12,Recall 1,sefl,male,ptsd3,5.0,5.0,2021-05-21,11:16 AM,n,n,ptsd3_12,2021-01-03,19.428571428571427,False,Adult
+15.932,24.83,wt,12,Recall 2,sefl,male,ptsd3,5.0,5.0,2021-05-24,3:11 PM,n,n,ptsd3_12,2021-01-03,19.428571428571427,False,Adult
+11.48,15.93,wt,12,Recall 3,sefl,male,ptsd3,5.0,5.0,2021-05-26,1:01 PM,n,n,ptsd3_12,2021-01-03,19.428571428571427,False,Adult
+5.692,9.35,wt,12,Recall 4,sefl,male,ptsd3,5.0,5.0,2021-06-04,3:16 PM,n,n,ptsd3_12,2021-01-03,19.428571428571427,False,Adult
+12.818,24.12,wt,12,recall5,sefl,male,ptsd3,5.0,5.0,2021-06-24,2:21 PM,n,n,ptsd3_12,2021-01-03,19.428571428571427,False,Adult
+61.9248333,61.92,wt,1,SEFLA,sefl,male,ptsd3,60.0,60.0,2021-05-19,3:05 PM,n,n,ptsd3_1,2021-01-15,17.714285714285715,False,Adult
+32.92,36.73,wt,1,SEFLB,sefl,male,ptsd3,3.5,3.5,2021-05-20,10:09 AM,n,n,ptsd3_1,2021-01-15,17.714285714285715,False,Adult
+24.63,55.02,wt,1,Recall 1,sefl,male,ptsd3,5.0,5.0,2021-05-21,10:13 AM,n,n,ptsd3_1,2021-01-15,17.714285714285715,False,Adult
+42.502,46.33,wt,1,Recall 2,sefl,male,ptsd3,5.0,5.0,2021-05-24,2:29 PM,n,n,ptsd3_1,2021-01-15,17.714285714285715,False,Adult
+26.09,34.2,wt,1,Recall 3,sefl,male,ptsd3,5.0,5.0,2021-05-26,12:11 PM,n,n,ptsd3_1,2021-01-15,17.714285714285715,False,Adult
+45.126,47.53,wt,1,Recall 4,sefl,male,ptsd3,5.0,5.0,2021-06-04,2:47 PM,n,n,ptsd3_1,2021-01-15,17.714285714285715,False,Adult
+25.838,30.3,wt,1,recall5,sefl,male,ptsd3,5.0,5.0,2021-06-24,1:41 PM,n,n,ptsd3_1,2021-01-15,17.714285714285715,False,Adult
+62.9533333,62.95,wt,3,SEFLA,sefl,male,ptsd3,60.0,60.0,2021-05-19,3:05 PM,n,n,ptsd3_3,2021-01-15,17.714285714285715,False,Adult
+25.665,28.85,wt,3,SEFLB,sefl,male,ptsd3,3.5,3.5,2021-05-20,10:09 AM,n,n,ptsd3_3,2021-01-15,17.714285714285715,False,Adult
+25.224,31.64,wt,3,Recall 1,sefl,male,ptsd3,5.0,5.0,2021-05-21,10:13 AM,n,n,ptsd3_3,2021-01-15,17.714285714285715,False,Adult
+19.072,0.0,wt,3,Recall 2,sefl,male,ptsd3,5.0,5.0,2021-05-24,2:29 PM,n,n,ptsd3_3,2021-01-15,17.714285714285715,False,Adult
+13.736,19.17,wt,3,Recall 3,sefl,male,ptsd3,5.0,5.0,2021-05-26,12:11 PM,n,n,ptsd3_3,2021-01-15,17.714285714285715,False,Adult
+30.508,34.16,wt,3,Recall 4,sefl,male,ptsd3,5.0,5.0,2021-06-04,2:47 PM,n,n,ptsd3_3,2021-01-15,17.714285714285715,False,Adult
+29.262,42.09,wt,3,recall5,sefl,male,ptsd3,5.0,5.0,2021-06-24,1:41 PM,n,n,ptsd3_3,2021-01-15,17.714285714285715,False,Adult
+54.3565,54.36,wt,5,SEFLA,sefl,male,ptsd3,60.0,60.0,2021-05-19,3:05 PM,n,n,ptsd3_5,2021-02-14,13.428571428571429,False,Adult
+21.2875,23.82,wt,5,SEFLB,sefl,male,ptsd3,3.5,3.5,2021-05-20,10:39 AM,n,n,ptsd3_5,2021-02-14,13.428571428571429,False,Adult
+79.314,81.37,wt,5,Recall 1,sefl,male,ptsd3,5.0,5.0,2021-05-21,10:38 AM,n,n,ptsd3_5,2021-02-14,13.428571428571429,False,Adult
+42.772,45.62,wt,5,Recall 2,sefl,male,ptsd3,5.0,5.0,2021-05-24,2:53 PM,n,n,ptsd3_5,2021-02-14,13.428571428571429,False,Adult
+10.258,14.62,wt,5,Recall 3,sefl,male,ptsd3,5.0,5.0,2021-05-26,12:39 PM,n,n,ptsd3_5,2021-02-14,13.428571428571429,False,Adult
+13.094,18.61,wt,5,Recall 4,sefl,male,ptsd3,5.0,5.0,2021-06-04,3:03 PM,n,n,ptsd3_5,2021-02-14,13.428571428571429,False,Adult
+12.276,16.73,wt,5,recall5,sefl,male,ptsd3,5.0,5.0,2021-06-24,2:02 PM,n,n,ptsd3_5,2021-02-14,13.428571428571429,False,Adult
+55.515,55.52,wt,7,SEFLA,sefl,male,ptsd3,60.0,60.0,2021-05-19,5:36 PM,n,n,ptsd3_7,2021-03-05,10.714285714285714,True,Young Adult
+14.2575,16.74,wt,7,SEFLB,sefl,male,ptsd3,3.5,3.5,2021-05-20,10:39 AM,n,n,ptsd3_7,2021-03-05,10.714285714285714,True,Young Adult
+42.01,42.55,wt,7,Recall 1,sefl,male,ptsd3,5.0,5.0,2021-05-21,10:38 AM,n,n,ptsd3_7,2021-03-05,10.714285714285714,True,Young Adult
+12.828,16.21,wt,7,Recall 2,sefl,male,ptsd3,5.0,5.0,2021-05-24,2:53 PM,n,n,ptsd3_7,2021-03-05,10.714285714285714,True,Young Adult
+2.76,5.34,wt,7,Recall 3,sefl,male,ptsd3,5.0,5.0,2021-05-26,12:39 PM,n,n,ptsd3_7,2021-03-05,10.714285714285714,True,Young Adult
+11.438,15.73,wt,7,Recall 4,sefl,male,ptsd3,5.0,5.0,2021-06-04,3:03 PM,n,n,ptsd3_7,2021-03-05,10.714285714285714,True,Young Adult
+32.704,38.05,wt,7,recall5,sefl,male,ptsd3,5.0,5.0,2021-06-24,2:02 PM,n,n,ptsd3_7,2021-03-05,10.714285714285714,True,Young Adult
+75.916,75.92,wt,9,SEFLA,sefl,male,ptsd3,60.0,60.0,2021-05-19,5:36 PM,n,n,ptsd3_9,2021-02-22,12.285714285714286,False,Adult
+23.905,26.46,wt,9,SEFLB,sefl,male,ptsd3,3.5,3.5,2021-05-20,11:04 AM,n,n,ptsd3_9,2021-02-22,12.285714285714286,False,Adult
+68.02,69.36,wt,9,Recall 1,sefl,male,ptsd3,5.0,5.0,2021-05-21,11:16 AM,n,n,ptsd3_9,2021-02-22,12.285714285714286,False,Adult
+25.718,33.29,wt,9,Recall 2,sefl,male,ptsd3,5.0,5.0,2021-05-24,3:11 PM,n,n,ptsd3_9,2021-02-22,12.285714285714286,False,Adult
+24.68,29.5,wt,9,Recall 3,sefl,male,ptsd3,5.0,5.0,2021-05-26,1:01 PM,n,n,ptsd3_9,2021-02-22,12.285714285714286,False,Adult
+58.362,60.77,wt,9,Recall 4,sefl,male,ptsd3,5.0,5.0,2021-06-04,3:16 PM,n,n,ptsd3_9,2021-02-22,12.285714285714286,False,Adult
+13.096,19.96,wt,9,recall5,sefl,male,ptsd3,5.0,5.0,2021-06-24,2:21 PM,n,n,ptsd3_9,2021-02-22,12.285714285714286,False,Adult
+62.1191667,62.12,wt,11,SEFLA,sefl,male,ptsd3,60.0,60.0,2021-05-19,5:36 PM,n,n,ptsd3_11,2021-01-03,19.428571428571427,False,Adult
+22.515,25.37,wt,11,SEFLB,sefl,male,ptsd3,3.5,3.5,2021-05-20,11:04 AM,n,n,ptsd3_11,2021-01-03,19.428571428571427,False,Adult
+78.158,79.05,wt,11,Recall 1,sefl,male,ptsd3,5.0,5.0,2021-05-21,11:16 AM,n,n,ptsd3_11,2021-01-03,19.428571428571427,False,Adult
+11.31,18.97,wt,11,Recall 2,sefl,male,ptsd3,5.0,5.0,2021-05-24,3:11 PM,n,n,ptsd3_11,2021-01-03,19.428571428571427,False,Adult
+9.372,12.32,wt,11,Recall 3,sefl,male,ptsd3,5.0,5.0,2021-05-26,1:01 PM,n,n,ptsd3_11,2021-01-03,19.428571428571427,False,Adult
+35.202,38.14,wt,11,Recall 4,sefl,male,ptsd3,5.0,5.0,2021-06-04,3:16 PM,n,n,ptsd3_11,2021-01-03,19.428571428571427,False,Adult
+12.466,18.71,wt,11,recall5,sefl,male,ptsd3,5.0,5.0,2021-06-24,2:21 PM,n,n,ptsd3_11,2021-01-03,19.428571428571427,False,Adult
+12.95216667,15.8,wt,61,SEFLA,control,male,ptsd4,60.0,60.0,2021-06-01,2:08 PM,n,n,ptsd4_61,2021-03-17,10.857142857142858,True,Young Adult
+0.63,2.85,wt,61,SEFLB,control,male,ptsd4,3.5,3.5,2021-06-02,1:28 PM,n,n,ptsd4_61,2021-03-17,10.857142857142858,True,Young Adult
+18.346,21.91,wt,61,Recall 1,control,male,ptsd4,5.0,5.0,2021-06-07,9:47 AM,n,n,ptsd4_61,2021-03-17,10.857142857142858,True,Young Adult
+8.276,16.3,wt,61,Recall 2,control,male,ptsd4,5.0,5.0,2021-06-11,2:54 PM,n,n,ptsd4_61,2021-03-17,10.857142857142858,True,Young Adult
+53.038,58.03,wt,61,Recall 3,control,male,ptsd4,5.0,5.0,2021-06-18,10:56 AM,n,n,ptsd4_61,2021-03-17,10.857142857142858,True,Young Adult
+25.126,31.01,wt,61,Recall 4,control,male,ptsd4,5.0,5.0,2021-06-25,2:13 PM,n,n,ptsd4_61,2021-03-17,10.857142857142858,True,Young Adult
+20.896,27.32,wt,61,recall5,control,male,ptsd4,5.0,5.0,2021-07-02,10:45 AM,n,n,ptsd4_61,2021-03-17,10.857142857142858,True,Young Adult
+4.427833333,6.27,wt,71,SEFLA,control,male,ptsd4,60.0,60.0,2021-06-01,2:08 PM,n,n,ptsd4_71,2021-03-17,10.857142857142858,True,Young Adult
+1.26,1.26,wt,71,SEFLB,control,male,ptsd4,3.5,3.5,2021-06-02,1:46 PM,n,n,ptsd4_71,2021-03-17,10.857142857142858,True,Young Adult
+9.35,13.35,wt,71,Recall 1,control,male,ptsd4,5.0,5.0,2021-06-07,10:07 AM,n,n,ptsd4_71,2021-03-17,10.857142857142858,True,Young Adult
+5.26,9.27,wt,71,Recall 2,control,male,ptsd4,5.0,5.0,2021-06-11,3:10 PM,n,n,ptsd4_71,2021-03-17,10.857142857142858,True,Young Adult
+3.568,8.83,wt,71,Recall 3,control,male,ptsd4,5.0,5.0,2021-06-18,11:18 AM,n,n,ptsd4_71,2021-03-17,10.857142857142858,True,Young Adult
+6.16,14.36,wt,71,Recall 4,control,male,ptsd4,5.0,5.0,2021-06-25,2:31 PM,n,n,ptsd4_71,2021-03-17,10.857142857142858,True,Young Adult
+5.888,15.87,wt,71,recall5,control,male,ptsd4,5.0,5.0,2021-07-02,10:59 AM,n,n,ptsd4_71,2021-03-17,10.857142857142858,True,Young Adult
+0.3783333333,0.87,wt,81,SEFLA,control,male,ptsd4,60.0,60.0,2021-06-01,2:08 PM,n,n,ptsd4_81,2021-03-17,10.857142857142858,True,Young Adult
+0.0,1.08,wt,81,SEFLB,control,male,ptsd4,3.5,3.5,2021-06-02,2:01 PM,n,n,ptsd4_81,2021-03-17,10.857142857142858,True,Young Adult
+9.718,16.4,wt,81,Recall 1,control,male,ptsd4,5.0,5.0,2021-06-07,10:27 AM,n,n,ptsd4_81,2021-03-17,10.857142857142858,True,Young Adult
+2.406,4.99,wt,81,Recall 2,control,male,ptsd4,5.0,5.0,2021-06-11,3:27 PM,n,n,ptsd4_81,2021-03-17,10.857142857142858,True,Young Adult
+13.806,17.37,wt,81,Recall 3,control,male,ptsd4,5.0,5.0,2021-06-18,11:33 AM,n,n,ptsd4_81,2021-03-17,10.857142857142858,True,Young Adult
+2.402,6.15,wt,81,Recall 4,control,male,ptsd4,5.0,5.0,2021-06-25,2:47 PM,n,n,ptsd4_81,2021-03-17,10.857142857142858,True,Young Adult
+10.592,16.65,wt,81,recall5,control,male,ptsd4,30.0,5.0,2021-07-02,11:15 AM,n,n,ptsd4_81,2021-03-17,10.857142857142858,True,Young Adult
+2.931833333,3.93,wt,82,SEFLA,control,male,ptsd4,60.0,60.0,2021-06-01,2:08 PM,n,n,ptsd4_82,2021-03-17,10.857142857142858,True,Young Adult
+0.0,0.42,wt,82,SEFLB,control,male,ptsd4,3.5,3.5,2021-06-02,2:01 PM,n,n,ptsd4_82,2021-03-17,10.857142857142858,True,Young Adult
+0.0,1.07,wt,82,Recall 1,control,male,ptsd4,5.0,5.0,2021-06-07,10:27 AM,n,n,ptsd4_82,2021-03-17,10.857142857142858,True,Young Adult
+0.0,0.8,wt,82,Recall 2,control,male,ptsd4,5.0,5.0,2021-06-11,3:27 PM,n,n,ptsd4_82,2021-03-17,10.857142857142858,True,Young Adult
+1.426,7.4,wt,82,Recall 3,control,male,ptsd4,5.0,5.0,2021-06-18,11:33 AM,n,n,ptsd4_82,2021-03-17,10.857142857142858,True,Young Adult
+1.422,8.1,wt,82,Recall 4,control,male,ptsd4,5.0,5.0,2021-06-25,2:47 PM,n,n,ptsd4_82,2021-03-17,10.857142857142858,True,Young Adult
+9.532,16.31,wt,82,recall5,control,male,ptsd4,5.0,5.0,2021-07-02,11:15 AM,n,n,ptsd4_82,2021-03-17,10.857142857142858,True,Young Adult
+46.53816667,47.46,wt,62,SEFLA,sefl,male,ptsd4,60.0,60.0,2021-06-01,3:34 PM,n,n,ptsd4_62,2021-03-17,10.857142857142858,True,Young Adult
+6.5075,10.81,wt,62,SEFLB,sefl,male,ptsd4,3.5,3.5,2021-06-02,1:28 PM,n,n,ptsd4_62,2021-03-17,10.857142857142858,True,Young Adult
+31.296,35.84,wt,62,Recall 1,sefl,male,ptsd4,5.0,5.0,2021-06-07,9:47 AM,n,n,ptsd4_62,2021-03-17,10.857142857142858,True,Young Adult
+13.296,18.47,wt,62,Recall 2,sefl,male,ptsd4,5.0,5.0,2021-06-11,2:54 PM,n,n,ptsd4_62,2021-03-17,10.857142857142858,True,Young Adult
+19.332,26.02,wt,62,Recall 3,sefl,male,ptsd4,5.0,5.0,2021-06-18,10:56 AM,n,n,ptsd4_62,2021-03-17,10.857142857142858,True,Young Adult
+13.27,22.18,wt,62,Recall 4,sefl,male,ptsd4,5.0,5.0,2021-06-25,2:13 PM,n,n,ptsd4_62,2021-03-17,10.857142857142858,True,Young Adult
+33.238,40.28,wt,62,recall5,sefl,male,ptsd4,5.0,5.0,2021-07-02,10:45 AM,n,n,ptsd4_62,2021-03-17,10.857142857142858,True,Young Adult
+68.7235,69.68,wt,63,SEFLA,sefl,male,ptsd4,60.0,60.0,2021-06-01,3:34 PM,n,n,ptsd4_63,2021-03-17,10.857142857142858,True,Young Adult
+13.6675,17.36,wt,63,SEFLB,sefl,male,ptsd4,3.5,3.5,2021-06-02,1:28 PM,n,n,ptsd4_63,2021-03-17,10.857142857142858,True,Young Adult
+6.242,9.81,wt,63,Recall 1,sefl,male,ptsd4,5.0,5.0,2021-06-07,9:47 AM,n,n,ptsd4_63,2021-03-17,10.857142857142858,True,Young Adult
+21.442,27.77,wt,63,Recall 2,sefl,male,ptsd4,5.0,5.0,2021-06-11,2:54 PM,n,n,ptsd4_63,2021-03-17,10.857142857142858,True,Young Adult
+27.506,33.21,wt,63,Recall 3,sefl,male,ptsd4,5.0,5.0,2021-06-18,10:56 AM,n,n,ptsd4_63,2021-03-17,10.857142857142858,True,Young Adult
+31.908,38.68,wt,63,Recall 4,sefl,male,ptsd4,5.0,5.0,2021-06-25,2:13 PM,n,n,ptsd4_63,2021-03-17,10.857142857142858,True,Young Adult
+27.726,34.41,wt,63,recall5,sefl,male,ptsd4,5.0,5.0,2021-07-02,10:45 AM,n,n,ptsd4_63,2021-03-17,10.857142857142858,True,Young Adult
+57.80683333,59.02,wt,64,SEFLA,sefl,male,ptsd4,60.0,60.0,2021-06-01,3:34 PM,n,n,ptsd4_64,2021-03-17,10.857142857142858,True,Young Adult
+47.8125,49.23,wt,64,SEFLB,sefl,male,ptsd4,3.5,3.5,2021-06-02,1:28 PM,n,n,ptsd4_64,2021-03-17,10.857142857142858,True,Young Adult
+77.202,78.36,wt,64,Recall 1,sefl,male,ptsd4,5.0,5.0,2021-06-07,9:47 AM,n,n,ptsd4_64,2021-03-17,10.857142857142858,True,Young Adult
+51.084,53.84,wt,64,Recall 2,sefl,male,ptsd4,5.0,5.0,2021-06-11,2:54 PM,n,n,ptsd4_64,2021-03-17,10.857142857142858,True,Young Adult
+23.43,29.31,wt,64,Recall 3,sefl,male,ptsd4,5.0,5.0,2021-06-18,10:56 AM,n,n,ptsd4_64,2021-03-17,10.857142857142858,True,Young Adult
+8.276,13.62,wt,64,Recall 4,sefl,male,ptsd4,5.0,5.0,2021-06-25,2:13 PM,n,n,ptsd4_64,2021-03-17,10.857142857142858,True,Young Adult
+21.368,27.51,wt,64,recall5,sefl,male,ptsd4,5.0,5.0,2021-07-02,10:45 AM,n,n,ptsd4_64,2021-03-17,10.857142857142858,True,Young Adult
+59.159,60.06,wt,72,SEFLA,sefl,male,ptsd4,60.0,60.0,2021-06-01,3:34 PM,n,n,ptsd4_72,2021-03-17,10.857142857142858,True,Young Adult
+6.475,8.12,wt,72,SEFLB,sefl,male,ptsd4,3.5,3.5,2021-06-02,1:46 PM,n,n,ptsd4_72,2021-03-17,10.857142857142858,True,Young Adult
+18.828,20.43,wt,72,Recall 1,sefl,male,ptsd4,5.0,5.0,2021-06-07,10:07 AM,n,n,ptsd4_72,2021-03-17,10.857142857142858,True,Young Adult
+24.996,28.38,wt,72,Recall 2,sefl,male,ptsd4,5.0,5.0,2021-06-11,3:10 PM,n,n,ptsd4_72,2021-03-17,10.857142857142858,True,Young Adult
+14.612,20.67,wt,72,Recall 3,sefl,male,ptsd4,5.0,5.0,2021-06-18,11:18 AM,n,n,ptsd4_72,2021-03-17,10.857142857142858,True,Young Adult
+6.674,11.21,wt,72,Recall 4,sefl,male,ptsd4,5.0,5.0,2021-06-25,2:31 PM,n,n,ptsd4_72,2021-03-17,10.857142857142858,True,Young Adult
+25.388,33.22,wt,72,recall5,sefl,male,ptsd4,5.0,5.0,2021-07-02,10:59 AM,n,n,ptsd4_72,2021-03-17,10.857142857142858,True,Young Adult
+59.55083333,60.97,wt,73,SEFLA,sefl,male,ptsd4,60.0,60.0,2021-06-01,5:04 PM,n,n,ptsd4_73,2021-03-17,10.857142857142858,True,Young Adult
+23.315,29.37,wt,73,SEFLB,sefl,male,ptsd4,3.5,3.5,2021-06-02,1:46 PM,n,n,ptsd4_73,2021-03-17,10.857142857142858,True,Young Adult
+30.732,36.44,wt,73,Recall 1,sefl,male,ptsd4,5.0,5.0,2021-06-07,10:07 AM,n,n,ptsd4_73,2021-03-17,10.857142857142858,True,Young Adult
+23.16,31.56,wt,73,Recall 2,sefl,male,ptsd4,5.0,5.0,2021-06-11,3:10 PM,n,n,ptsd4_73,2021-03-17,10.857142857142858,True,Young Adult
+38.792,44.68,wt,73,Recall 3,sefl,male,ptsd4,5.0,5.0,2021-06-18,11:18 AM,n,n,ptsd4_73,2021-03-17,10.857142857142858,True,Young Adult
+26.0,38.02,wt,73,Recall 4,sefl,male,ptsd4,5.0,5.0,2021-06-25,2:31 PM,n,n,ptsd4_73,2021-03-17,10.857142857142858,True,Young Adult
+26.96,35.42,wt,73,recall5,sefl,male,ptsd4,5.0,5.0,2021-07-02,10:59 AM,n,n,ptsd4_73,2021-03-17,10.857142857142858,True,Young Adult
+68.63933333,69.49,wt,74,SEFLA,sefl,male,ptsd4,60.0,60.0,2021-06-01,5:04 PM,n,n,ptsd4_74,2021-03-17,10.857142857142858,True,Young Adult
+13.0325,15.0,wt,74,SEFLB,sefl,male,ptsd4,3.5,3.5,2021-06-02,1:46 PM,n,n,ptsd4_74,2021-03-17,10.857142857142858,True,Young Adult
+29.078,31.66,wt,74,Recall 1,sefl,male,ptsd4,5.0,5.0,2021-06-07,10:07 AM,n,n,ptsd4_74,2021-03-17,10.857142857142858,True,Young Adult
+21.684,27.83,wt,74,Recall 2,sefl,male,ptsd4,5.0,5.0,2021-06-11,3:10 PM,n,n,ptsd4_74,2021-03-17,10.857142857142858,True,Young Adult
+40.206,44.48,wt,74,Recall 3,sefl,male,ptsd4,5.0,5.0,2021-06-18,11:18 AM,n,n,ptsd4_74,2021-03-17,10.857142857142858,True,Young Adult
+17.352,24.57,wt,74,Recall 4,sefl,male,ptsd4,5.0,5.0,2021-06-25,2:31 PM,n,n,ptsd4_74,2021-03-17,10.857142857142858,True,Young Adult
+9.34,14.51,wt,74,recall5,sefl,male,ptsd4,5.0,5.0,2021-07-02,10:59 AM,n,n,ptsd4_74,2021-03-17,10.857142857142858,True,Young Adult
+66.03333333,66.93,wt,83,SEFLA,sefl,male,ptsd4,60.0,60.0,2021-06-01,5:04 PM,n,n,ptsd4_83,2021-03-17,10.857142857142858,True,Young Adult
+3.3875,5.32,wt,83,SEFLB,sefl,male,ptsd4,3.5,3.5,2021-06-02,2:01 PM,n,n,ptsd4_83,2021-03-17,10.857142857142858,True,Young Adult
+27.252,29.13,wt,83,Recall 1,sefl,male,ptsd4,5.0,5.0,2021-06-07,10:27 AM,n,n,ptsd4_83,2021-03-17,10.857142857142858,True,Young Adult
+20.114,25.12,wt,83,Recall 2,sefl,male,ptsd4,5.0,5.0,2021-06-11,3:27 PM,n,n,ptsd4_83,2021-03-17,10.857142857142858,True,Young Adult
+27.898,33.33,wt,83,Recall 3,sefl,male,ptsd4,5.0,5.0,2021-06-18,11:33 AM,n,n,ptsd4_83,2021-03-17,10.857142857142858,True,Young Adult
+15.884,21.59,wt,83,Recall 4,sefl,male,ptsd4,5.0,5.0,2021-06-25,2:47 PM,n,n,ptsd4_83,2021-03-17,10.857142857142858,True,Young Adult
+29.226,33.32,wt,83,recall5,sefl,male,ptsd4,5.0,5.0,2021-07-02,11:15 AM,n,n,ptsd4_83,2021-03-17,10.857142857142858,True,Young Adult
+65.264,66.33,wt,84,SEFLA,sefl,male,ptsd4,60.0,60.0,2021-06-01,5:04 PM,n,n,ptsd4_84,2021-03-17,10.857142857142858,True,Young Adult
+9.2025,11.26,wt,84,SEFLB,sefl,male,ptsd4,3.5,3.5,2021-06-02,2:01 PM,n,n,ptsd4_84,2021-03-17,10.857142857142858,True,Young Adult
+15.764,21.47,wt,84,Recall 1,sefl,male,ptsd4,5.0,5.0,2021-06-07,10:27 AM,n,n,ptsd4_84,2021-03-17,10.857142857142858,True,Young Adult
+10.078,17.93,wt,84,Recall 2,sefl,male,ptsd4,5.0,5.0,2021-06-11,3:27 PM,n,n,ptsd4_84,2021-03-17,10.857142857142858,True,Young Adult
+19.326,24.5,wt,84,Recall 3,sefl,male,ptsd4,5.0,5.0,2021-06-18,11:33 AM,n,n,ptsd4_84,2021-03-17,10.857142857142858,True,Young Adult
+13.454,20.95,wt,84,Recall 4,sefl,male,ptsd4,5.0,5.0,2021-06-25,2:47 PM,n,n,ptsd4_84,2021-03-17,10.857142857142858,True,Young Adult
+4.638,9.46,wt,84,recall5,sefl,male,ptsd4,5.0,5.0,2021-07-02,11:15 AM,n,n,ptsd4_84,2021-03-17,10.857142857142858,True,Young Adult
+,2.58,wt,6,SEFLA,control,female,ptsd5,60.0,60.0,2021-06-08,11:44 AM,n,n,ptsd5_6,2021-03-05,13.571428571428571,False,Adult
+,10.86,wt,6,SEFLB,control,female,ptsd5,3.5,3.5,2021-06-09,10:08 AM,n,n,ptsd5_6,2021-03-05,13.571428571428571,False,Adult
+,15.69,wt,6,Recall 1,control,female,ptsd5,5.0,5.0,2021-06-11,9:47 AM,n,n,ptsd5_6,2021-03-05,13.571428571428571,False,Adult
+,20.97,wt,6,Recall 2,control,female,ptsd5,5.0,5.0,2021-06-18,2:29 PM,n,n,ptsd5_6,2021-03-05,13.571428571428571,False,Adult
+,19.07,wt,6,Recall 3,control,female,ptsd5,5.0,5.0,2021-06-25,3:55 PM,n,n,ptsd5_6,2021-03-05,13.571428571428571,False,Adult
+,30.34,wt,6,Recall 4,control,female,ptsd5,5.0,5.0,2021-07-02,11:44 AM,n,n,ptsd5_6,2021-03-05,13.571428571428571,False,Adult
+,22.24,wt,6,recall5,control,female,ptsd5,5.0,5.0,2021-07-09,9:18 AM,n,n,ptsd5_6,2021-03-05,13.571428571428571,False,Adult
+0.363,0.61,wt,11,SEFLA,control,female,ptsd5,60.0,60.0,2021-06-08,11:44 AM,n,n,ptsd5_11,2021-01-15,20.571428571428573,False,Adult
+0.0,0.0,wt,11,SEFLB,control,female,ptsd5,3.5,3.5,2021-06-09,10:32 AM,n,n,ptsd5_11,2021-01-15,20.571428571428573,False,Adult
+28.912,34.97,wt,11,Recall 1,control,female,ptsd5,5.0,5.0,2021-06-11,10:07 AM,n,n,ptsd5_11,2021-01-15,20.571428571428573,False,Adult
+15.078,20.97,wt,11,Recall 2,control,female,ptsd5,5.0,5.0,2021-06-18,2:46 PM,n,n,ptsd5_11,2021-01-15,20.571428571428573,False,Adult
+32.414,38.13,wt,11,Recall 3,control,female,ptsd5,5.0,5.0,2021-06-25,4:17 PM,n,n,ptsd5_11,2021-01-15,20.571428571428573,False,Adult
+33.966,41.1,wt,11,Recall 4,control,female,ptsd5,5.0,5.0,2021-07-02,12:05 PM,n,n,ptsd5_11,2021-01-15,20.571428571428573,False,Adult
+28.55,37.11,wt,11,recall5,control,female,ptsd5,5.0,5.0,2021-07-09,9:36 AM,n,n,ptsd5_11,2021-01-15,20.571428571428573,False,Adult
+1.261333333,1.64,wt,61,SEFLA,control,female,ptsd5,60.0,60.0,2021-06-08,11:44 AM,n,n,ptsd5_61,2021-01-13,20.857142857142858,False,Adult
+3.3625,3.78,wt,61,SEFLB,control,female,ptsd5,3.5,3.5,2021-06-09,11:01 AM,n,n,ptsd5_61,2021-01-13,20.857142857142858,False,Adult
+31.394,36.48,wt,61,Recall 1,control,female,ptsd5,5.0,5.0,2021-06-11,10:26 AM,n,n,ptsd5_61,2021-01-13,20.857142857142858,False,Adult
+17.672,21.87,wt,61,Recall 2,control,female,ptsd5,5.0,5.0,2021-06-18,3:04 PM,n,n,ptsd5_61,2021-01-13,20.857142857142858,False,Adult
+2.408,5.26,wt,61,Recall 3,control,female,ptsd5,5.0,5.0,2021-06-25,4:38 PM,n,n,ptsd5_61,2021-01-13,20.857142857142858,False,Adult
+11.348,19.19,wt,61,Recall 4,control,female,ptsd5,5.0,5.0,2021-07-02,12:19 PM,n,n,ptsd5_61,2021-01-13,20.857142857142858,False,Adult
+17.37,26.64,wt,61,recall5,control,female,ptsd5,5.0,5.0,2021-07-09,9:54 AM,n,n,ptsd5_61,2021-01-13,20.857142857142858,False,Adult
+1.275666667,1.74,wt,81,SEFLA,control,female,ptsd5,60.0,60.0,2021-06-08,11:44 AM,n,n,ptsd5_81,2021-04-09,8.571428571428571,True,Young Adult
+15.6675,17.7,wt,81,SEFLB,control,female,ptsd5,3.5,3.5,2021-06-09,10:32 AM,n,n,ptsd5_81,2021-04-09,8.571428571428571,True,Young Adult
+43.236,50.73,wt,81,Recall 1,control,female,ptsd5,5.0,5.0,2021-06-11,10:07 AM,n,n,ptsd5_81,2021-04-09,8.571428571428571,True,Young Adult
+7.13,13.9,wt,81,Recall 2,control,female,ptsd5,5.0,5.0,2021-06-18,2:46 PM,n,n,ptsd5_81,2021-04-09,8.571428571428571,True,Young Adult
+12.896,19.67,wt,81,Recall 3,control,female,ptsd5,5.0,5.0,2021-06-25,4:17 PM,n,n,ptsd5_81,2021-04-09,8.571428571428571,True,Young Adult
+6.78,16.22,wt,81,Recall 4,control,female,ptsd5,5.0,5.0,2021-07-02,12:05 PM,n,n,ptsd5_81,2021-04-09,8.571428571428571,True,Young Adult
+8.018,18.99,wt,81,recall5,control,female,ptsd5,5.0,5.0,2021-07-09,9:36 AM,n,n,ptsd5_81,2021-04-09,8.571428571428571,True,Young Adult
+,60.43,wt,2,SEFLA,sefl,female,ptsd5,60.0,60.0,2021-06-08,1:12 PM,n,n,ptsd5_2,2021-03-05,13.571428571428571,False,Adult
+,52.11,wt,2,SEFLB,sefl,female,ptsd5,3.5,3.5,2021-06-09,10:08 AM,n,n,ptsd5_2,2021-03-05,13.571428571428571,False,Adult
+,64.88,wt,2,Recall 1,sefl,female,ptsd5,5.0,5.0,2021-06-11,9:47 AM,n,n,ptsd5_2,2021-03-05,13.571428571428571,False,Adult
+,54.36,wt,2,Recall 2,sefl,female,ptsd5,5.0,5.0,2021-06-18,2:29 PM,n,n,ptsd5_2,2021-03-05,13.571428571428571,False,Adult
+,56.88,wt,2,Recall 3,sefl,female,ptsd5,5.0,5.0,2021-06-25,3:55 PM,n,n,ptsd5_2,2021-03-05,13.571428571428571,False,Adult
+,43.78,wt,2,Recall 4,sefl,female,ptsd5,5.0,5.0,2021-07-02,11:44 AM,n,n,ptsd5_2,2021-03-05,13.571428571428571,False,Adult
+,42.61,wt,2,recall5,sefl,female,ptsd5,5.0,5.0,2021-07-09,9:18 AM,n,n,ptsd5_2,2021-03-05,13.571428571428571,False,Adult
+65.49666667,65.94,wt,84,SEFLA,sefl,female,ptsd5,60.0,60.0,2021-06-08,1:12 PM,n,n,ptsd5_84,2021-04-09,8.571428571428571,True,Young Adult
+69.6025,70.83,wt,84,SEFLB,sefl,female,ptsd5,3.5,3.5,2021-06-09,11:01 AM,n,n,ptsd5_84,2021-04-09,8.571428571428571,True,Young Adult
+74.586,74.86,wt,84,Recall 1,sefl,female,ptsd5,5.0,5.0,2021-06-11,10:26 AM,n,n,ptsd5_84,2021-04-09,8.571428571428571,True,Young Adult
+27.608,31.62,wt,84,Recall 2,sefl,female,ptsd5,5.0,5.0,2021-06-18,3:04 PM,n,n,ptsd5_84,2021-04-09,8.571428571428571,True,Young Adult
+35.218,41.72,wt,84,Recall 3,sefl,female,ptsd5,5.0,5.0,2021-06-25,4:38 PM,n,n,ptsd5_84,2021-04-09,8.571428571428571,True,Young Adult
+26.414,31.14,wt,84,Recall 4,sefl,female,ptsd5,5.0,5.0,2021-07-02,12:19 PM,n,n,ptsd5_84,2021-04-09,8.571428571428571,True,Young Adult
+17.912,22.1,wt,84,recall5,sefl,female,ptsd5,5.0,5.0,2021-07-09,9:54 AM,n,n,ptsd5_84,2021-04-09,8.571428571428571,True,Young Adult
+,62.41,wt,3,SEFLA,sefl,female,ptsd5,60.0,60.0,2021-06-08,1:12 PM,n,n,ptsd5_3,2021-03-05,13.571428571428571,False,Adult
+,50.77,wt,3,SEFLB,sefl,female,ptsd5,3.5,3.5,2021-06-09,10:08 AM,n,n,ptsd5_3,2021-03-05,13.571428571428571,False,Adult
+,50.71,wt,3,Recall 1,sefl,female,ptsd5,5.0,5.0,2021-06-11,9:47 AM,n,n,ptsd5_3,2021-03-05,13.571428571428571,False,Adult
+,47.59,wt,3,Recall 2,sefl,female,ptsd5,5.0,5.0,2021-06-18,2:29 PM,n,n,ptsd5_3,2021-03-05,13.571428571428571,False,Adult
+,23.9,wt,3,Recall 3,sefl,female,ptsd5,5.0,5.0,2021-06-25,3:55 PM,n,n,ptsd5_3,2021-03-05,13.571428571428571,False,Adult
+,36.76,wt,3,Recall 4,sefl,female,ptsd5,5.0,5.0,2021-07-02,11:44 AM,n,n,ptsd5_3,2021-03-05,13.571428571428571,False,Adult
+,35.58,wt,3,recall5,sefl,female,ptsd5,5.0,5.0,2021-07-09,9:18 AM,n,n,ptsd5_3,2021-03-05,13.571428571428571,False,Adult
+,43.31,wt,4,SEFLA,sefl,female,ptsd5,60.0,60.0,2021-06-08,1:12 PM,n,n,ptsd5_4,2021-03-05,13.571428571428571,False,Adult
+,20.57,wt,4,SEFLB,sefl,female,ptsd5,3.5,3.5,2021-06-09,10:08 AM,n,n,ptsd5_4,2021-03-05,13.571428571428571,False,Adult
+,52.23,wt,4,Recall 1,sefl,female,ptsd5,5.0,5.0,2021-06-11,9:47 AM,n,n,ptsd5_4,2021-03-05,13.571428571428571,False,Adult
+,28.55,wt,4,Recall 2,sefl,female,ptsd5,5.0,5.0,2021-06-18,2:29 PM,n,n,ptsd5_4,2021-03-05,13.571428571428571,False,Adult
+,45.25,wt,4,Recall 3,sefl,female,ptsd5,5.0,5.0,2021-06-25,3:55 PM,n,n,ptsd5_4,2021-03-05,13.571428571428571,False,Adult
+,39.13,wt,4,Recall 4,sefl,female,ptsd5,5.0,5.0,2021-07-02,11:44 AM,n,n,ptsd5_4,2021-03-05,13.571428571428571,False,Adult
+,36.83,wt,4,recall5,sefl,female,ptsd5,5.0,5.0,2021-07-09,9:18 AM,n,n,ptsd5_4,2021-03-05,13.571428571428571,False,Adult
+66.98916667,67.41,wt,12,SEFLA,sefl,female,ptsd5,60.0,60.0,2021-06-08,2:36 PM,n,n,ptsd5_12,2021-01-15,20.571428571428573,False,Adult
+59.725,61.85,wt,12,SEFLB,sefl,female,ptsd5,3.5,3.5,2021-06-09,10:32 AM,n,n,ptsd5_12,2021-01-15,20.571428571428573,False,Adult
+89.484,90.02,wt,12,Recall 1,sefl,female,ptsd5,5.0,5.0,2021-06-11,10:07 AM,n,n,ptsd5_12,2021-01-15,20.571428571428573,False,Adult
+59.978,63.1,wt,12,Recall 2,sefl,female,ptsd5,5.0,5.0,2021-06-18,2:46 PM,n,n,ptsd5_12,2021-01-15,20.571428571428573,False,Adult
+37.526,42.25,wt,12,Recall 3,sefl,female,ptsd5,5.0,5.0,2021-06-25,4:17 PM,n,n,ptsd5_12,2021-01-15,20.571428571428573,False,Adult
+58.808,62.02,wt,12,Recall 4,sefl,female,ptsd5,5.0,5.0,2021-07-02,12:05 PM,n,n,ptsd5_12,2021-01-15,20.571428571428573,False,Adult
+49.202,54.9,wt,12,recall5,sefl,female,ptsd5,5.0,5.0,2021-07-09,9:36 AM,n,n,ptsd5_12,2021-01-15,20.571428571428573,False,Adult
+52.915,54.21,wt,13,SEFLA,sefl,female,ptsd5,60.0,60.0,2021-06-08,2:36 PM,n,n,ptsd5_13,2021-01-15,20.571428571428573,False,Adult
+36.4825,38.44,wt,13,SEFLB,sefl,female,ptsd5,3.5,3.5,2021-06-09,10:32 AM,n,n,ptsd5_13,2021-01-15,20.571428571428573,False,Adult
+81.298,81.92,wt,13,Recall 1,sefl,female,ptsd5,5.0,5.0,2021-06-11,10:07 AM,n,n,ptsd5_13,2021-01-15,20.571428571428573,False,Adult
+59.078,62.29,wt,13,Recall 2,sefl,female,ptsd5,5.0,5.0,2021-06-18,2:46 PM,n,n,ptsd5_13,2021-01-15,20.571428571428573,False,Adult
+19.382,24.82,wt,13,Recall 3,sefl,female,ptsd5,5.0,5.0,2021-06-25,4:17 PM,n,n,ptsd5_13,2021-01-15,20.571428571428573,False,Adult
+25.838,29.85,wt,13,Recall 4,sefl,female,ptsd5,5.0,5.0,2021-07-02,12:05 PM,n,n,ptsd5_13,2021-01-15,20.571428571428573,False,Adult
+1.07,4.9,wt,13,recall5,sefl,female,ptsd5,5.0,5.0,2021-07-09,9:36 AM,n,n,ptsd5_13,2021-01-15,20.571428571428573,False,Adult
+61.82666667,62.47,wt,64,SEFLA,sefl,female,ptsd5,60.0,60.0,2021-06-08,2:36 PM,n,n,ptsd5_64,2021-01-13,20.857142857142858,False,Adult
+50.82,55.2,wt,64,SEFLB,sefl,female,ptsd5,3.5,3.5,2021-06-09,11:01 AM,n,n,ptsd5_64,2021-01-13,20.857142857142858,False,Adult
+48.212,54.28,wt,64,Recall 1,sefl,female,ptsd5,5.0,5.0,2021-06-11,10:26 AM,n,n,ptsd5_64,2021-01-13,20.857142857142858,False,Adult
+57.536,60.4,wt,64,Recall 2,sefl,female,ptsd5,5.0,5.0,2021-06-18,3:04 PM,n,n,ptsd5_64,2021-01-13,20.857142857142858,False,Adult
+38.248,44.84,wt,64,Recall 3,sefl,female,ptsd5,5.0,5.0,2021-06-25,4:38 PM,n,n,ptsd5_64,2021-01-13,20.857142857142858,False,Adult
+20.292,25.64,wt,64,Recall 4,sefl,female,ptsd5,5.0,5.0,2021-07-02,12:19 PM,n,n,ptsd5_64,2021-01-13,20.857142857142858,False,Adult
+20.866,32.62,wt,64,recall5,sefl,female,ptsd5,5.0,5.0,2021-07-09,9:54 AM,n,n,ptsd5_64,2021-01-13,20.857142857142858,False,Adult
+56.22383333,56.78,wt,62,SEFLA,sefl,female,ptsd5,60.0,60.0,2021-06-08,2:36 PM,n,n,ptsd5_62,2021-01-13,20.857142857142858,False,Adult
+38.69,41.96,wt,62,SEFLB,sefl,female,ptsd5,3.5,3.5,2021-06-09,11:01 AM,n,n,ptsd5_62,2021-01-13,20.857142857142858,False,Adult
+34.482,39.3,wt,62,Recall 1,sefl,female,ptsd5,5.0,5.0,2021-06-11,10:26 AM,n,n,ptsd5_62,2021-01-13,20.857142857142858,False,Adult
+28.066,31.28,wt,62,Recall 2,sefl,female,ptsd5,5.0,5.0,2021-06-18,3:04 PM,n,n,ptsd5_62,2021-01-13,20.857142857142858,False,Adult
+20.236,24.79,wt,62,Recall 3,sefl,female,ptsd5,5.0,5.0,2021-06-25,4:38 PM,n,n,ptsd5_62,2021-01-13,20.857142857142858,False,Adult
+19.076,22.73,wt,62,Recall 4,sefl,female,ptsd5,5.0,5.0,2021-07-02,12:19 PM,n,n,ptsd5_62,2021-01-13,20.857142857142858,False,Adult
+24.24,27.81,wt,62,recall5,sefl,female,ptsd5,5.0,5.0,2021-07-09,9:54 AM,n,n,ptsd5_62,2021-01-13,20.857142857142858,False,Adult
+2.396,2.42,wt,51,SEFLA,control,female,ptsd6,60.0,60.0,2021-07-08,2:44 PM,n,n,ptsd6_51,2021-04-27,10.285714285714286,True,Young Adult
+3.1125,4.83,wt,51,SEFLB,control,female,ptsd6,3.5,3.5,2021-07-09,11:15 AM,n,n,ptsd6_51,2021-04-27,10.285714285714286,True,Young Adult
+10.518,13.19,wt,51,Recall 1,control,female,ptsd6,5.0,5.0,2021-07-28,3:28 PM,n,n,ptsd6_51,2021-04-27,10.285714285714286,True,Young Adult
+0.0,0.8,wt,51,Recall 2,control,female,ptsd6,5.0,5.0,2021-08-03,10:37 AM,n,n,ptsd6_51,2021-04-27,10.285714285714286,True,Young Adult
+3.478,5.44,wt,51,Recall 3,control,female,ptsd6,5.0,5.0,2021-08-09,4:57 PM,n,n,ptsd6_51,2021-04-27,10.285714285714286,True,Young Adult
+1.346,3.13,wt,51,Recall 4,control,female,ptsd6,5.0,5.0,2021-08-16,12:42 PM,n,n,ptsd6_51,2021-04-27,10.285714285714286,True,Young Adult
+2.052,7.77,wt,51,recall5,control,female,ptsd6,5.0,5.0,2021-08-23,9:14 AM,n,n,ptsd6_51,2021-04-27,10.285714285714286,True,Young Adult
+1.8025,38.24,wt,52,SEFLA,sefl,female,ptsd6,60.0,60.0,2021-07-08,3:57 PM,n,n,ptsd6_52,2021-04-27,10.285714285714286,True,Young Adult
+13.5225,17.04,wt,52,SEFLB,sefl,female,ptsd6,3.5,3.5,2021-07-09,11:15 AM,n,n,ptsd6_52,2021-04-27,10.285714285714286,True,Young Adult
+21.662,27.02,wt,52,Recall 1,sefl,female,ptsd6,5.0,5.0,2021-07-28,3:28 PM,n,n,ptsd6_52,2021-04-27,10.285714285714286,True,Young Adult
+18.554,22.48,wt,52,Recall 2,sefl,female,ptsd6,5.0,5.0,2021-08-03,10:37 AM,n,n,ptsd6_52,2021-04-27,10.285714285714286,True,Young Adult
+16.066,20.07,wt,52,Recall 3,sefl,female,ptsd6,5.0,5.0,2021-08-09,4:57 PM,n,n,ptsd6_52,2021-04-27,10.285714285714286,True,Young Adult
+15.318,19.51,wt,52,Recall 4,sefl,female,ptsd6,5.0,5.0,2021-08-16,12:42 PM,n,n,ptsd6_52,2021-04-27,10.285714285714286,True,Young Adult
+10.364,14.2,wt,52,recall5,sefl,female,ptsd6,5.0,5.0,2021-08-23,9:14 AM,n,n,ptsd6_52,2021-04-27,10.285714285714286,True,Young Adult
+1.3785,3.89,wt,61,SEFLA,control,female,ptsd6,60.0,60.0,2021-07-08,2:44 PM,n,n,ptsd6_61,2021-04-27,10.285714285714286,True,Young Adult
+0.445,1.87,wt,61,SEFLB,control,female,ptsd6,3.5,3.5,2021-07-09,11:15 AM,n,n,ptsd6_61,2021-04-27,10.285714285714286,True,Young Adult
+13.606,17.25,wt,61,Recall 1,control,female,ptsd6,5.0,5.0,2021-07-28,3:28 PM,n,n,ptsd6_61,2021-04-27,10.285714285714286,True,Young Adult
+8.042,12.86,wt,61,Recall 2,control,female,ptsd6,5.0,5.0,2021-08-03,10:37 AM,n,n,ptsd6_61,2021-04-27,10.285714285714286,True,Young Adult
+4.806,10.51,wt,61,Recall 3,control,female,ptsd6,5.0,5.0,2021-08-09,4:57 PM,n,n,ptsd6_61,2021-04-27,10.285714285714286,True,Young Adult
+6.14,9.61,wt,61,Recall 4,control,female,ptsd6,5.0,5.0,2021-08-16,12:42 PM,n,n,ptsd6_61,2021-04-27,10.285714285714286,True,Young Adult
+2.05,5.08,wt,61,recall5,control,female,ptsd6,5.0,5.0,2021-08-23,9:14 AM,n,n,ptsd6_61,2021-04-27,10.285714285714286,True,Young Adult
+1.156666667,4.8,wt,62,SEFLA,control,female,ptsd6,60.0,60.0,2021-07-08,2:44 PM,n,n,ptsd6_62,2021-04-27,10.285714285714286,True,Young Adult
+0.0,0.96,wt,62,SEFLB,control,female,ptsd6,3.5,3.5,2021-07-09,11:15 AM,n,n,ptsd6_62,2021-04-27,10.285714285714286,True,Young Adult
+5.162,8.64,wt,62,Recall 1,control,female,ptsd6,5.0,5.0,2021-07-28,3:28 PM,n,n,ptsd6_62,2021-04-27,10.285714285714286,True,Young Adult
+16.61,21.42,wt,62,Recall 2,control,female,ptsd6,5.0,5.0,2021-08-03,10:37 AM,n,n,ptsd6_62,2021-04-27,10.285714285714286,True,Young Adult
+1.072,3.83,wt,62,Recall 3,control,female,ptsd6,5.0,5.0,2021-08-09,4:57 PM,n,n,ptsd6_62,2021-04-27,10.285714285714286,True,Young Adult
+8.81,11.66,wt,62,Recall 4,control,female,ptsd6,5.0,5.0,2021-08-16,12:42 PM,n,n,ptsd6_62,2021-04-27,10.285714285714286,True,Young Adult
+2.404,6.5,wt,62,recall5,control,female,ptsd6,5.0,5.0,2021-08-23,9:14 AM,n,n,ptsd6_62,2021-04-27,10.285714285714286,True,Young Adult
+36.39966667,50.64,wt,63,SEFLA,sefl,female,ptsd6,60.0,60.0,2021-07-08,3:57 PM,n,n,ptsd6_63,2021-04-27,10.285714285714286,True,Young Adult
+11.43,21.35,wt,63,SEFLB,sefl,female,ptsd6,3.5,3.5,2021-07-09,11:29 AM,n,n,ptsd6_63,2021-04-27,10.285714285714286,True,Young Adult
+20.626,26.6,wt,63,Recall 1,sefl,female,ptsd6,5.0,5.0,2021-07-28,3:52 PM,n,n,ptsd6_63,2021-04-27,10.285714285714286,True,Young Adult
+0.358,3.39,wt,63,Recall 2,sefl,female,ptsd6,5.0,5.0,2021-08-03,10:53 AM,n,n,ptsd6_63,2021-04-27,10.285714285714286,True,Young Adult
+0.802,3.84,wt,63,Recall 3,sefl,female,ptsd6,5.0,5.0,2021-08-09,5:19 PM,n,n,ptsd6_63,2021-04-27,10.285714285714286,True,Young Adult
+4.98,7.57,wt,63,Recall 4,sefl,female,ptsd6,5.0,5.0,2021-08-16,12:58 PM,n,n,ptsd6_63,2021-04-27,10.285714285714286,True,Young Adult
+1.696,3.75,wt,63,recall5,sefl,female,ptsd6,5.0,5.0,2021-08-23,9:27 AM,n,n,ptsd6_63,2021-04-27,10.285714285714286,True,Young Adult
+48.26566667,66.07,wt,64,SEFLA,sefl,female,ptsd6,60.0,60.0,2021-07-08,3:57 PM,n,n,ptsd6_64,2021-04-27,10.285714285714286,True,Young Adult
+36.535,37.74,wt,64,SEFLB,sefl,female,ptsd6,3.5,3.5,2021-07-09,11:29 AM,n,n,ptsd6_64,2021-04-27,10.285714285714286,True,Young Adult
+44.42,47.01,wt,64,Recall 1,sefl,female,ptsd6,5.0,5.0,2021-07-28,3:52 PM,n,n,ptsd6_64,2021-04-27,10.285714285714286,True,Young Adult
+20.228,23.61,wt,64,Recall 2,sefl,female,ptsd6,5.0,5.0,2021-08-03,10:53 AM,n,n,ptsd6_64,2021-04-27,10.285714285714286,True,Young Adult
+20.468,22.07,wt,64,Recall 3,sefl,female,ptsd6,5.0,5.0,2021-08-09,5:19 PM,n,n,ptsd6_64,2021-04-27,10.285714285714286,True,Young Adult
+39.472,42.34,wt,64,Recall 4,sefl,female,ptsd6,5.0,5.0,2021-08-16,12:58 PM,n,n,ptsd6_64,2021-04-27,10.285714285714286,True,Young Adult
+8.546,11.76,wt,64,recall5,sefl,female,ptsd6,5.0,5.0,2021-08-23,9:27 AM,n,n,ptsd6_64,2021-04-27,10.285714285714286,True,Young Adult
+64.78733333,58.83,wt,65,SEFLA,sefl,female,ptsd6,60.0,60.0,2021-07-08,3:57 PM,n,n,ptsd6_65,2021-04-27,10.285714285714286,True,Young Adult
+29.4675,31.45,wt,65,SEFLB,sefl,female,ptsd6,3.5,3.5,2021-07-09,11:29 AM,n,n,ptsd6_65,2021-04-27,10.285714285714286,True,Young Adult
+46.71,49.65,wt,65,Recall 1,sefl,female,ptsd6,5.0,5.0,2021-07-28,3:52 PM,n,n,ptsd6_65,2021-04-27,10.285714285714286,True,Young Adult
+4.72,6.06,wt,65,Recall 2,sefl,female,ptsd6,5.0,5.0,2021-08-03,10:53 AM,n,n,ptsd6_65,2021-04-27,10.285714285714286,True,Young Adult
+23.58,27.68,wt,65,Recall 3,sefl,female,ptsd6,5.0,5.0,2021-08-09,5:19 PM,n,n,ptsd6_65,2021-04-27,10.285714285714286,True,Young Adult
+8.502,11.36,wt,65,Recall 4,sefl,female,ptsd6,5.0,5.0,2021-08-16,12:58 PM,n,n,ptsd6_65,2021-04-27,10.285714285714286,True,Young Adult
+2.496,4.82,wt,65,recall5,sefl,female,ptsd6,5.0,5.0,2021-08-23,9:27 AM,n,n,ptsd6_65,2021-04-27,10.285714285714286,True,Young Adult
+58.09733333,3.37,wt,71,SEFLA,control,female,ptsd6,60.0,60.0,2021-07-08,2:44 PM,n,n,ptsd6_71,2021-04-27,10.285714285714286,True,Young Adult
+0.0,0.64,wt,71,SEFLB,control,female,ptsd6,3.5,3.5,2021-07-09,11:29 AM,n,n,ptsd6_71,2021-04-27,10.285714285714286,True,Young Adult
+2.934,4.71,wt,71,Recall 1,control,female,ptsd6,5.0,5.0,2021-07-28,3:52 PM,n,n,ptsd6_71,2021-04-27,10.285714285714286,True,Young Adult
+0.714,4.01,wt,71,Recall 2,control,female,ptsd6,5.0,5.0,2021-08-03,10:53 AM,n,n,ptsd6_71,2021-04-27,10.285714285714286,True,Young Adult
+0.0,0.36,wt,71,Recall 3,control,female,ptsd6,5.0,5.0,2021-08-09,5:19 PM,n,n,ptsd6_71,2021-04-27,10.285714285714286,True,Young Adult
+0.0,1.25,wt,71,Recall 4,control,female,ptsd6,5.0,5.0,2021-08-16,12:58 PM,n,n,ptsd6_71,2021-04-27,10.285714285714286,True,Young Adult
+0.356,1.16,wt,71,recall5,control,female,ptsd6,5.0,5.0,2021-08-23,9:27 AM,n,n,ptsd6_71,2021-04-27,10.285714285714286,True,Young Adult
+45.05583333,65.95,wt,75,SEFLA,sefl,female,ptsd6,60.0,60.0,2021-07-08,5:09 PM,n,n,ptsd6_75,2021-04-27,10.285714285714286,True,Young Adult
+41.8375,44.74,wt,75,SEFLB,sefl,female,ptsd6,3.5,3.5,2021-07-09,11:44 AM,n,n,ptsd6_75,2021-04-27,10.285714285714286,True,Young Adult
+38.54,41.83,wt,75,Recall 1,sefl,female,ptsd6,5.0,5.0,2021-07-28,4:07 PM,n,n,ptsd6_75,2021-04-27,10.285714285714286,True,Young Adult
+20.1,23.58,wt,75,Recall 2,sefl,female,ptsd6,5.0,5.0,2021-08-03,11:05 AM,n,n,ptsd6_75,2021-04-27,10.285714285714286,True,Young Adult
+9.36,14.26,wt,75,Recall 3,sefl,female,ptsd6,5.0,5.0,2021-08-09,5:39 PM,n,n,ptsd6_75,2021-04-27,10.285714285714286,True,Young Adult
+3.568,5.17,wt,75,Recall 4,sefl,female,ptsd6,5.0,5.0,2021-08-16,1:15 PM,n,n,ptsd6_75,2021-04-27,10.285714285714286,True,Young Adult
+3.2,6.85,wt,75,recall5,sefl,female,ptsd6,5.0,5.0,2021-08-23,9:40 AM,n,n,ptsd6_75,2021-04-27,10.285714285714286,True,Young Adult
+62.35833333,59.7,wt,74,SEFLA,sefl,female,ptsd6,60.0,60.0,2021-07-08,5:09 PM,n,n,ptsd6_74,2021-04-27,10.285714285714286,True,Young Adult
+16.2325,17.87,wt,74,SEFLB,sefl,female,ptsd6,3.5,3.5,2021-07-09,11:44 AM,n,n,ptsd6_74,2021-04-27,10.285714285714286,True,Young Adult
+26.058,29.36,wt,74,Recall 1,sefl,female,ptsd6,5.0,5.0,2021-07-28,4:07 PM,n,n,ptsd6_74,2021-04-27,10.285714285714286,True,Young Adult
+10.71,14.1,wt,74,Recall 2,sefl,female,ptsd6,5.0,5.0,2021-08-03,11:05 AM,n,n,ptsd6_74,2021-04-27,10.285714285714286,True,Young Adult
+18.008,21.39,wt,74,Recall 3,sefl,female,ptsd6,5.0,5.0,2021-08-09,5:39 PM,n,n,ptsd6_74,2021-04-27,10.285714285714286,True,Young Adult
+25.526,27.84,wt,74,Recall 4,sefl,female,ptsd6,5.0,5.0,2021-08-16,1:15 PM,n,n,ptsd6_74,2021-04-27,10.285714285714286,True,Young Adult
+2.502,4.91,wt,74,recall5,sefl,female,ptsd6,5.0,5.0,2021-08-23,9:40 AM,n,n,ptsd6_74,2021-04-27,10.285714285714286,True,Young Adult
+58.51,63.7,wt,73,SEFLA,sefl,female,ptsd6,60.0,60.0,2021-07-08,5:09 PM,n,n,ptsd6_73,2021-04-27,10.285714285714286,True,Young Adult
+17.7025,20.98,wt,73,SEFLB,sefl,female,ptsd6,3.5,3.5,2021-07-09,11:44 AM,n,n,ptsd6_73,2021-04-27,10.285714285714286,True,Young Adult
+66.81,68.15,wt,73,Recall 1,sefl,female,ptsd6,5.0,5.0,2021-07-28,4:07 PM,n,n,ptsd6_73,2021-04-27,10.285714285714286,True,Young Adult
+18.852,21.79,wt,73,Recall 2,sefl,female,ptsd6,5.0,5.0,2021-08-03,11:05 AM,n,n,ptsd6_73,2021-04-27,10.285714285714286,True,Young Adult
+19.678,22.08,wt,73,Recall 3,sefl,female,ptsd6,5.0,5.0,2021-08-09,5:39 PM,n,n,ptsd6_73,2021-04-27,10.285714285714286,True,Young Adult
+40.774,44.16,wt,73,Recall 4,sefl,female,ptsd6,5.0,5.0,2021-08-16,1:15 PM,n,n,ptsd6_73,2021-04-27,10.285714285714286,True,Young Adult
+22.812,26.48,wt,73,recall5,sefl,female,ptsd6,5.0,5.0,2021-08-23,9:40 AM,n,n,ptsd6_73,2021-04-27,10.285714285714286,True,Young Adult
+64.69383333,47.45,wt,72,SEFLA,sefl,female,ptsd6,60.0,60.0,2021-07-08,5:09 PM,n,n,ptsd6_72,2021-04-27,10.285714285714286,True,Young Adult
+6.9675,10.96,wt,72,SEFLB,sefl,female,ptsd6,3.5,3.5,2021-07-09,11:44 AM,n,n,ptsd6_72,2021-04-27,10.285714285714286,True,Young Adult
+12.726,17.27,wt,72,Recall 1,sefl,female,ptsd6,5.0,5.0,2021-07-28,4:07 PM,n,n,ptsd6_72,2021-04-27,10.285714285714286,True,Young Adult
+11.83,13.7,wt,72,Recall 2,sefl,female,ptsd6,5.0,5.0,2021-08-03,11:05 AM,n,n,ptsd6_72,2021-04-27,10.285714285714286,True,Young Adult
+4.548,8.12,wt,72,Recall 3,sefl,female,ptsd6,5.0,5.0,2021-08-09,5:39 PM,n,n,ptsd6_72,2021-04-27,10.285714285714286,True,Young Adult
+6.532,11.08,wt,72,Recall 4,sefl,female,ptsd6,5.0,5.0,2021-08-16,1:15 PM,n,n,ptsd6_72,2021-04-27,10.285714285714286,True,Young Adult
+0.0,1.51,wt,72,recall5,sefl,female,ptsd6,5.0,5.0,2021-08-23,9:40 AM,n,n,ptsd6_72,2021-04-27,10.285714285714286,True,Young Adult
+4.829333333,4.83,wt,28-1,SEFLA,control,male,ptsd9,60.0,60.0,2022-01-12,11:41 AM,n,n,ptsd9_28-1,2021-10-13,13.0,False,Adult
+0.84,1.26,wt,28-1,SEFLB,control,male,ptsd9,5.0,5.0,2022-01-13,10:56 AM,n,n,ptsd9_28-1,2021-10-13,13.0,False,Adult
+18.082,25.75,wt,28-1,Recall 1,control,male,ptsd9,5.0,5.0,2022-01-14,10:34 AM,n,n,ptsd9_28-1,2021-10-13,13.0,False,Adult
+17.834,24.44,wt,28-1,Recall 2,control,male,ptsd9,5.0,5.0,2022-01-21,2:43 PM,n,n,ptsd9_28-1,2021-10-13,13.0,False,Adult
+2.608,26.19,wt,28-1,Recall 3,control,male,ptsd9,5.0,5.0,2022-01-28,12:06 PM,n,n,ptsd9_28-1,2021-10-13,13.0,False,Adult
+6.952,11.41,wt,28-1,Recall 4,control,male,ptsd9,5.0,5.0,2022-02-11,3:54 PM,n,n,ptsd9_28-1,2021-10-13,13.0,False,Adult
+19.44316667,19.44,wt,28-4,SEFLA,control,male,ptsd9,60.0,60.0,2022-01-12,11:41 AM,n,n,ptsd9_28-4,2021-10-13,13.0,False,Adult
+1.68,2.53,wt,28-4,SEFLB,control,male,ptsd9,5.0,5.0,2022-01-13,10:56 AM,n,n,ptsd9_28-4,2021-10-13,13.0,False,Adult
+35.854,39.23,wt,28-4,Recall 1,control,male,ptsd9,5.0,5.0,2022-01-14,10:34 AM,n,n,ptsd9_28-4,2021-10-13,13.0,False,Adult
+4.104,5.89,wt,28-4,Recall 2,control,male,ptsd9,5.0,5.0,2022-01-21,2:43 PM,n,n,ptsd9_28-4,2021-10-13,13.0,False,Adult
+10.532,23.81,wt,28-4,Recall 3,control,male,ptsd9,5.0,5.0,2022-01-28,12:06 PM,n,n,ptsd9_28-4,2021-10-13,13.0,False,Adult
+23.016,30.33,wt,28-4,Recall 4,control,male,ptsd9,5.0,5.0,2022-02-11,3:54 PM,n,n,ptsd9_28-4,2021-10-13,13.0,False,Adult
+1.053166667,1.05,wt,28-5,SEFLA,control,male,ptsd9,60.0,60.0,2022-01-12,11:41 AM,n,n,ptsd9_28-5,2021-10-13,13.0,False,Adult
+0.0,2.52,wt,28-5,SEFLB,control,male,ptsd9,5.0,5.0,2022-01-13,11:16 AM,n,n,ptsd9_28-5,2021-10-13,13.0,False,Adult
+4.114,9.73,wt,28-5,Recall 1,control,male,ptsd9,5.0,5.0,2022-01-14,10:52 AM,n,n,ptsd9_28-5,2021-10-13,13.0,False,Adult
+7.302,10.69,wt,28-5,Recall 2,control,male,ptsd9,5.0,5.0,2022-01-21,2:57 PM,n,n,ptsd9_28-5,2021-10-13,13.0,False,Adult
+0.356,18.75,wt,28-5,Recall 3,control,male,ptsd9,5.0,5.0,2022-01-28,12:17 PM,n,n,ptsd9_28-5,2021-10-13,13.0,False,Adult
+6.05,11.66,wt,28-5,Recall 4,control,male,ptsd9,5.0,5.0,2022-02-11,4:07 PM,n,n,ptsd9_28-5,2021-10-13,13.0,False,Adult
+4.385666667,4.39,wt,29-3,SEFLA,control,male,ptsd9,60.0,60.0,2022-01-12,11:41 AM,n,n,ptsd9_29-3,2021-10-13,13.0,False,Adult
+4.8325,6.64,wt,29-3,SEFLB,control,male,ptsd9,5.0,5.0,2022-01-13,11:16 AM,n,n,ptsd9_29-3,2021-10-13,13.0,False,Adult
+44.038,46.98,wt,29-3,Recall 1,control,male,ptsd9,5.0,5.0,2022-01-14,10:52 AM,n,n,ptsd9_29-3,2021-10-13,13.0,False,Adult
+1.074,2.94,wt,29-3,Recall 2,control,male,ptsd9,5.0,5.0,2022-01-21,2:57 PM,n,n,ptsd9_29-3,2021-10-13,13.0,False,Adult
+0.888,25.0,wt,29-3,Recall 3,control,male,ptsd9,5.0,5.0,2022-01-28,12:17 PM,n,n,ptsd9_29-3,2021-10-13,13.0,False,Adult
+6.79,9.91,wt,29-3,Recall 4,control,male,ptsd9,5.0,5.0,2022-02-11,4:07 PM,n,n,ptsd9_29-3,2021-10-13,13.0,False,Adult
+19.63616667,19.64,wt,29-4,SEFLA,control,male,ptsd9,60.0,60.0,2022-01-12,1:04 PM,n,n,ptsd9_29-4,2021-10-13,13.0,False,Adult
+0.84,2.52,wt,29-4,SEFLB,control,male,ptsd9,5.0,5.0,2022-01-13,11:37 AM,n,n,ptsd9_29-4,2021-10-13,13.0,False,Adult
+32.426,33.23,wt,29-4,Recall 1,control,male,ptsd9,5.0,5.0,2022-01-14,11:08 AM,n,n,ptsd9_29-4,2021-10-13,13.0,False,Adult
+18.0,22.01,wt,29-4,Recall 2,control,male,ptsd9,5.0,5.0,2022-01-21,3:12 PM,n,n,ptsd9_29-4,2021-10-13,13.0,False,Adult
+22.268,37.5,wt,29-4,Recall 3,control,male,ptsd9,5.0,5.0,2022-01-28,12:28 PM,n,n,ptsd9_29-4,2021-10-13,13.0,False,Adult
+32.056,34.38,wt,29-4,Recall 4,control,male,ptsd9,5.0,5.0,2022-02-11,4:19 PM,n,n,ptsd9_29-4,2021-10-13,13.0,False,Adult
+43.54133333,43.54,wt,30-2,SEFLA,control,male,ptsd9,60.0,60.0,2022-01-12,1:04 PM,n,n,ptsd9_30-2,2021-10-13,13.0,False,Adult
+4.8325,5.25,wt,30-2,SEFLB,control,male,ptsd9,5.0,5.0,2022-01-13,11:37 AM,n,n,ptsd9_30-2,2021-10-13,13.0,False,Adult
+26.014,31.02,wt,30-2,Recall 1,control,male,ptsd9,5.0,5.0,2022-01-14,11:08 AM,n,n,ptsd9_30-2,2021-10-13,13.0,False,Adult
+25.288,28.85,wt,30-2,Recall 2,control,male,ptsd9,5.0,5.0,2022-01-21,3:12 PM,n,n,ptsd9_30-2,2021-10-13,13.0,False,Adult
+13.566,26.79,wt,30-2,Recall 3,control,male,ptsd9,5.0,5.0,2022-01-28,12:28 PM,n,n,ptsd9_30-2,2021-10-13,13.0,False,Adult
+13.63,21.02,wt,30-2,Recall 4,control,male,ptsd9,5.0,5.0,2022-02-11,4:19 PM,n,n,ptsd9_30-2,2021-10-13,13.0,False,Adult
+10.187,10.19,wt,30-5,SEFLA,control,male,ptsd9,60.0,60.0,2022-01-12,1:04 PM,n,n,ptsd9_30-5,2021-10-13,13.0,False,Adult
+1.3825,3.62,wt,30-5,SEFLB,control,male,ptsd9,5.0,5.0,2022-01-13,11:55 AM,n,n,ptsd9_30-5,2021-10-13,13.0,False,Adult
+30.816,33.76,wt,30-5,Recall 1,control,male,ptsd9,5.0,5.0,2022-01-14,11:22 AM,n,n,ptsd9_30-5,2021-10-13,13.0,False,Adult
+26.804,30.1,wt,30-5,Recall 2,control,male,ptsd9,5.0,5.0,2022-01-21,3:25 PM,n,n,ptsd9_30-5,2021-10-13,13.0,False,Adult
+22.086,26.79,wt,30-5,Recall 3,control,male,ptsd9,5.0,5.0,2022-01-28,12:38 PM,n,n,ptsd9_30-5,2021-10-13,13.0,False,Adult
+16.25,19.38,wt,30-5,Recall 4,control,male,ptsd9,5.0,5.0,2022-02-11,4:29 PM,n,n,ptsd9_30-5,2021-10-13,13.0,False,Adult
+2.6395,2.64,wt,31-5,SEFLA,control,male,ptsd9,60.0,60.0,2022-01-12,1:04 PM,n,n,ptsd9_31-5,2021-10-13,13.0,False,Adult
+3.075,5.4,wt,31-5,SEFLB,control,male,ptsd9,5.0,5.0,2022-01-13,11:55 AM,n,n,ptsd9_31-5,2021-10-13,13.0,False,Adult
+13.382,17.57,wt,31-5,Recall 1,control,male,ptsd9,5.0,5.0,2022-01-14,11:22 AM,n,n,ptsd9_31-5,2021-10-13,13.0,False,Adult
+5.694,9.44,wt,31-5,Recall 2,control,male,ptsd9,5.0,5.0,2022-01-21,3:25 PM,n,n,ptsd9_31-5,2021-10-13,13.0,False,Adult
+8.286,28.57,wt,31-5,Recall 3,control,male,ptsd9,5.0,5.0,2022-01-28,12:38 PM,n,n,ptsd9_31-5,2021-10-13,13.0,False,Adult
+9.176,14.52,wt,31-5,Recall 4,control,male,ptsd9,5.0,5.0,2022-02-11,4:29 PM,n,n,ptsd9_31-5,2021-10-13,13.0,False,Adult
+67.41616667,67.42,wt,28-2,SEFLA,sefl,male,ptsd9,60.0,60.0,2022-01-12,2:23 PM,n,n,ptsd9_28-2,2021-10-13,13.0,False,Adult
+23.2925,26.34,wt,28-2,SEFLB,sefl,male,ptsd9,5.0,5.0,2022-01-13,10:56 AM,n,n,ptsd9_28-2,2021-10-13,13.0,False,Adult
+48.244,50.21,wt,28-2,Recall 1,sefl,male,ptsd9,5.0,5.0,2022-01-14,10:34 AM,n,n,ptsd9_28-2,2021-10-13,13.0,False,Adult
+53.164,57.0,wt,28-2,Recall 2,sefl,male,ptsd9,5.0,5.0,2022-01-21,2:43 PM,n,n,ptsd9_28-2,2021-10-13,13.0,False,Adult
+50.862,42.86,wt,28-2,Recall 3,sefl,male,ptsd9,5.0,5.0,2022-01-28,12:06 PM,n,n,ptsd9_28-2,2021-10-13,13.0,False,Adult
+12.482,19.08,wt,28-2,Recall 4,sefl,male,ptsd9,5.0,5.0,2022-02-11,3:54 PM,n,n,ptsd9_28-2,2021-10-13,13.0,False,Adult
+65.37,65.37,wt,28-3,SEFLA,sefl,male,ptsd9,60.0,60.0,2022-01-12,2:23 PM,n,n,ptsd9_28-3,2021-10-13,13.0,False,Adult
+25.66,28.25,wt,28-3,SEFLB,sefl,male,ptsd9,5.0,5.0,2022-01-13,10:56 AM,n,n,ptsd9_28-3,2021-10-13,13.0,False,Adult
+76.916,78.25,wt,28-3,Recall 1,sefl,male,ptsd9,5.0,5.0,2022-01-14,10:34 AM,n,n,ptsd9_28-3,2021-10-13,13.0,False,Adult
+66.706,68.84,wt,28-3,Recall 2,sefl,male,ptsd9,5.0,5.0,2022-01-21,2:43 PM,n,n,ptsd9_28-3,2021-10-13,13.0,False,Adult
+32.41,39.58,wt,28-3,Recall 3,sefl,male,ptsd9,5.0,5.0,2022-01-28,12:06 PM,n,n,ptsd9_28-3,2021-10-13,13.0,False,Adult
+42.298,43.55,wt,28-3,Recall 4,sefl,male,ptsd9,5.0,5.0,2022-02-11,3:54 PM,n,n,ptsd9_28-3,2021-10-13,13.0,False,Adult
+61.13316667,61.13,wt,29-1,SEFLA,sefl,male,ptsd9,60.0,60.0,2022-01-12,2:23 PM,n,n,ptsd9_29-1,2021-10-13,13.0,False,Adult
+12.31,14.87,wt,29-1,SEFLB,sefl,male,ptsd9,5.0,5.0,2022-01-13,11:16 AM,n,n,ptsd9_29-1,2021-10-13,13.0,False,Adult
+56.354,58.22,wt,29-1,Recall 1,sefl,male,ptsd9,5.0,5.0,2022-01-14,10:52 AM,n,n,ptsd9_29-1,2021-10-13,13.0,False,Adult
+43.52,45.12,wt,29-1,Recall 2,sefl,male,ptsd9,5.0,5.0,2022-01-21,2:57 PM,n,n,ptsd9_29-1,2021-10-13,13.0,False,Adult
+60.034,30.95,wt,29-1,Recall 3,sefl,male,ptsd9,5.0,5.0,2022-01-28,12:17 PM,n,n,ptsd9_29-1,2021-10-13,13.0,False,Adult
+46.816,49.05,wt,29-1,Recall 4,sefl,male,ptsd9,5.0,5.0,2022-02-11,4:07 PM,n,n,ptsd9_29-1,2021-10-13,13.0,False,Adult
+63.662,63.66,wt,29-2,SEFLA,sefl,male,ptsd9,60.0,60.0,2022-01-12,2:23 PM,n,n,ptsd9_29-2,2021-10-13,13.0,False,Adult
+30.7225,33.77,wt,29-2,SEFLB,sefl,male,ptsd9,5.0,5.0,2022-01-13,11:16 AM,n,n,ptsd9_29-2,2021-10-13,13.0,False,Adult
+16.232,19.53,wt,29-2,Recall 1,sefl,male,ptsd9,5.0,5.0,2022-01-14,10:52 AM,n,n,ptsd9_29-2,2021-10-13,13.0,False,Adult
+45.12,47.7,wt,29-2,Recall 2,sefl,male,ptsd9,5.0,5.0,2022-01-21,2:57 PM,n,n,ptsd9_29-2,2021-10-13,13.0,False,Adult
+43.81,43.75,wt,29-2,Recall 3,sefl,male,ptsd9,5.0,5.0,2022-01-28,12:17 PM,n,n,ptsd9_29-2,2021-10-13,13.0,False,Adult
+27.834,33.71,wt,29-2,Recall 4,sefl,male,ptsd9,5.0,5.0,2022-02-11,4:07 PM,n,n,ptsd9_29-2,2021-10-13,13.0,False,Adult
+47.497,47.5,wt,29-5,SEFLA,sefl,male,ptsd9,60.0,60.0,2022-01-12,3:46 PM,n,n,ptsd9_29-5,2021-10-13,13.0,False,Adult
+33.115,35.16,wt,29-5,SEFLB,sefl,male,ptsd9,5.0,5.0,2022-01-13,11:37 AM,n,n,ptsd9_29-5,2021-10-13,13.0,False,Adult
+68.494,70.82,wt,29-5,Recall 1,sefl,male,ptsd9,5.0,5.0,2022-01-14,11:08 AM,n,n,ptsd9_29-5,2021-10-13,13.0,False,Adult
+60.962,63.19,wt,29-5,Recall 2,sefl,male,ptsd9,5.0,5.0,2022-01-21,3:12 PM,n,n,ptsd9_29-5,2021-10-13,13.0,False,Adult
+57.786,35.71,wt,29-5,Recall 3,sefl,male,ptsd9,5.0,5.0,2022-01-28,12:28 PM,n,n,ptsd9_29-5,2021-10-13,13.0,False,Adult
+52.686,56.43,wt,29-5,Recall 4,sefl,male,ptsd9,5.0,5.0,2022-02-11,4:19 PM,n,n,ptsd9_29-5,2021-10-13,13.0,False,Adult
+64.57316667,64.57,wt,30-1,SEFLA,sefl,male,ptsd9,60.0,60.0,2022-01-12,3:46 PM,n,n,ptsd9_30-1,2021-10-13,13.0,False,Adult
+13.26,15.88,wt,30-1,SEFLB,sefl,male,ptsd9,5.0,5.0,2022-01-13,11:37 AM,n,n,ptsd9_30-1,2021-10-13,13.0,False,Adult
+29.076,32.56,wt,30-1,Recall 1,sefl,male,ptsd9,5.0,5.0,2022-01-14,11:08 AM,n,n,ptsd9_30-1,2021-10-13,13.0,False,Adult
+44.528,48.1,wt,30-1,Recall 2,sefl,male,ptsd9,5.0,5.0,2022-01-21,3:12 PM,n,n,ptsd9_30-1,2021-10-13,13.0,False,Adult
+19.364,29.46,wt,30-1,Recall 3,sefl,male,ptsd9,5.0,5.0,2022-01-28,12:28 PM,n,n,ptsd9_30-1,2021-10-13,13.0,False,Adult
+11.576,15.14,wt,30-1,Recall 4,sefl,male,ptsd9,5.0,5.0,2022-02-11,4:19 PM,n,n,ptsd9_30-1,2021-10-13,13.0,False,Adult
+64.3755,64.38,wt,31-1,SEFLA,sefl,male,ptsd9,60.0,60.0,2022-01-12,3:46 PM,n,n,ptsd9_31-1,2021-10-13,13.0,False,Adult
+25.405,26.8,wt,31-1,SEFLB,sefl,male,ptsd9,5.0,5.0,2022-01-13,11:55 AM,n,n,ptsd9_31-1,2021-10-13,13.0,False,Adult
+47.448,52.61,wt,31-1,Recall 1,sefl,male,ptsd9,5.0,5.0,2022-01-14,11:22 AM,n,n,ptsd9_31-1,2021-10-13,13.0,False,Adult
+51.062,53.21,wt,31-1,Recall 2,sefl,male,ptsd9,5.0,5.0,2022-01-21,3:25 PM,n,n,ptsd9_31-1,2021-10-13,13.0,False,Adult
+49.296,31.25,wt,31-1,Recall 3,sefl,male,ptsd9,5.0,5.0,2022-01-28,12:38 PM,n,n,ptsd9_31-1,2021-10-13,13.0,False,Adult
+47.04,53.2,wt,31-1,Recall 4,sefl,male,ptsd9,5.0,5.0,2022-02-11,4:29 PM,n,n,ptsd9_31-1,2021-10-13,13.0,False,Adult
+67.164,67.16,wt,31-2,SEFLA,sefl,male,ptsd9,60.0,60.0,2022-01-12,3:46 PM,n,n,ptsd9_31-2,2021-10-13,13.0,False,Adult
+22.6775,26.73,wt,31-2,SEFLB,sefl,male,ptsd9,5.0,5.0,2022-01-13,11:55 AM,n,n,ptsd9_31-2,2021-10-13,13.0,False,Adult
+63.272,66.75,wt,31-2,Recall 1,sefl,male,ptsd9,5.0,5.0,2022-01-14,11:22 AM,n,n,ptsd9_31-2,2021-10-13,13.0,False,Adult
+63.57,64.63,wt,31-2,Recall 2,sefl,male,ptsd9,5.0,5.0,2022-01-21,3:25 PM,n,n,ptsd9_31-2,2021-10-13,13.0,False,Adult
+58.118,48.21,wt,31-2,Recall 3,sefl,male,ptsd9,5.0,5.0,2022-01-28,12:38 PM,n,n,ptsd9_31-2,2021-10-13,13.0,False,Adult
+22.652,28.45,wt,31-2,Recall 4,sefl,male,ptsd9,5.0,5.0,2022-02-11,4:29 PM,n,n,ptsd9_31-2,2021-10-13,13.0,False,Adult

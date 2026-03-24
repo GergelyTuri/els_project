@@ -6,8 +6,44 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from natsort import natsorted
 
+# Embed fonts in PDF/PS output (required for Adobe Illustrator compatibility)
 plt.rcParams["pdf.fonttype"] = 42
 plt.rcParams["ps.fonttype"] = 42
+plt.rcParams["svg.fonttype"] = "none"
+plt.rcParams["font.family"] = "sans-serif"
+plt.rcParams["font.sans-serif"] = ["Arial", "Helvetica", "DejaVu Sans"]
+
+# ---------------------------------------------------------------------------
+# Color palettes — divergent and colorblind-friendly
+#   "default"  : Okabe-Ito blue / orange  (universal colorblind safe)
+#   "palette2" : ColorBrewer PRGn purple / green
+#   "palette3" : ColorBrewer RdBu red / blue
+# ---------------------------------------------------------------------------
+COLOR_PALETTES = {
+    "default":  ["#0072B2", "#E69F00"],
+    "palette2": ["#762A83", "#1B7837"],
+    "palette3": ["#D6604D", "#4393C3"],
+}
+
+# ---------------------------------------------------------------------------
+# Publication sizing: longer side = 5 inches
+# The split-panel layout has a natural 5:3 (width:height) aspect ratio.
+# ---------------------------------------------------------------------------
+_LONG_SIDE = 5.0          # inches — the longer dimension of every saved figure
+_ASPECT    = 5 / 3        # width : height for the two-panel freezing plot
+_FIG_W     = _LONG_SIDE                 # 5.0 in
+_FIG_H     = _LONG_SIDE / _ASPECT      # 3.0 in
+
+# Font sizes scaled for a 5-inch publication figure
+_FS_TICK   = 8
+_FS_LABEL  = 9
+_FS_TITLE  = 10
+_FS_LEGEND = 8
+
+# Line and marker weights
+_LW        = 1.5   # plot line width (pt)
+_MS        = 4     # marker size (pt)
+_SPINE_LW  = 0.75  # axis spine / tick line width (pt)
 
 
 def plot_freezing_time(
@@ -20,104 +56,130 @@ def plot_freezing_time(
     ylim=[0, 60],
     output_filename="Freezing Time RM-ANOVA.svg",
     show_stats=False,
+    palette="default",
 ):
     """
-    Plots the preferred subsets of freezing time data for sefla stage and other stages side by side using a double axis plot.
+    Plots freezing time data for the SEFLA stage and subsequent stages
+    side-by-side using a two-panel layout.
 
-    Parameters:
-    data (pd.DataFrame): A DataFrame containing the freezing time data with a 'day' column and 'freezing' column.
-    effect_size (float): The effect size of the difference between the two groups of data using repeated-measure ANOVA.
-    pvalue (float): The p-value of the difference between the two groups of data using repeated-measure ANOVA.
-    title_text (str): The title text to be displayed on the plot specifying the data being compared.
-    hue (str): The column name used for grouping data (e.g., treatment group).
-    ylim (list): The y-axis limits for the plot. Default is [0, 60].
-    output_filename (str): The filename to save the plot as. Default is 'Freezing Time RM-ANOVA.svg'.
-
-    Returns:
-    A double axis plot comparing the freezing time data between groups for the sefla stage and other stages side by side.
+    Parameters
+    ----------
+    data : pd.DataFrame
+        DataFrame with at least 'day', the variable column, and the hue column.
+    variable : str
+        Column name of the freezing variable to plot (e.g. 'freezing_1s').
+    effect_size : float, optional
+        Effect size to annotate when show_stats=True.
+    pvalue : float, optional
+        p-value to annotate when show_stats=True.
+    title_text : str
+        Main figure title.
+    hue : str
+        Column used for color grouping (e.g. 'condition', 'Age', 'sex').
+    ylim : list
+        Y-axis limits. Default [0, 60].
+    output_filename : str
+        Output file path. Default 'Freezing Time RM-ANOVA.svg'.
+    show_stats : bool
+        Whether to annotate effect size and p-value.
+    palette : str
+        Color palette to use: 'default', 'palette2', or 'palette3'.
     """
-    # Subset the data
-    sefla_data = data[data["day"] == "sefla"]
+    colors = COLOR_PALETTES.get(palette, COLOR_PALETTES["default"])
+
+    SEFLA_data = data[data["day"] == "SEFLA"]
     subset_data = data[
-        data["day"].isin(["seflb", "recall1", "recall2", "recall3", "recall4"])
+        data["day"].isin(["SEFLB", "Recall 1", "Recall 2", "Recall 3", "Recall 4"])
     ]
 
-    plt.rcParams["font.family"] = "Arial"  # Choose a vector-safe font
-
     fig, (ax1, ax2) = plt.subplots(
-        1, 2, figsize=(10, 6), sharey=True, gridspec_kw={"width_ratios": [1, 4]}
+        1, 2,
+        figsize=(_FIG_W, _FIG_H),
+        sharey=True,
+        gridspec_kw={"width_ratios": [1, 4]},
     )
 
-    # Plot the sefla data on the first axis
-    sns.pointplot(ax=ax1, data=sefla_data, x="day", y=variable, hue=hue, join=True)
-    ax1.set_ylabel("Freezing Time (%)", fontsize=26)
+    # --- Left panel: SEFLA ---
+    sns.pointplot(
+        ax=ax1, data=SEFLA_data, x="day", y=variable, hue=hue,
+        join=True, palette=colors, linewidth=_LW, markersize=_MS,
+    )
+    ax1.set_ylabel("Freezing Time (%)", fontsize=_FS_LABEL)
     ax1.set_ylim(ylim)
     ax1.set_xlabel("")
-    ax1.tick_params(axis="x", labelsize=26)
-    ax1.tick_params(axis="y", labelsize=26)
+    ax1.tick_params(axis="both", labelsize=_FS_TICK, width=_SPINE_LW)
     ax1.legend().remove()
     sns.despine(ax=ax1)
+    for spine in ax1.spines.values():
+        spine.set_linewidth(_SPINE_LW)
 
-    # Plot the non-sefla data on the second axis
-    sns.pointplot(ax=ax2, data=subset_data, x="day", y=variable, hue=hue, join=True)
+    # --- Right panel: SEFLB through Recall 4 ---
+    sns.pointplot(
+        ax=ax2, data=subset_data, x="day", y=variable, hue=hue,
+        join=True, palette=colors, linewidth=_LW, markersize=_MS,
+    )
     ax2.set_xlabel("")
-    ax2.set_ylabel("Freezing Time (%)", fontsize=26)
-    ax2.tick_params(axis="x", labelsize=26)
-    ax2.tick_params(axis="y", labelsize=26)
-    ax2.legend().set_title(None)
-    ax2.legend(fontsize=26, title_fontsize=26, loc="upper right")
+    ax2.set_ylabel("Freezing Time (%)", fontsize=_FS_LABEL)
+    ax2.tick_params(axis="both", labelsize=_FS_TICK, width=_SPINE_LW)
+    legend = ax2.legend(fontsize=_FS_LEGEND, loc="upper right")
+    legend.set_title(None)
     sns.despine(ax=ax2)
+    for spine in ax2.spines.values():
+        spine.set_linewidth(_SPINE_LW)
 
-    # Add main title
-    fig.suptitle(f"{title_text}", fontsize=28, x=0.5)
-    # fig.text(0.5, -0.05, "Experimental Stage", ha="center", fontsize=12)
+    fig.suptitle(title_text, fontsize=_FS_TITLE, x=0.5)
 
     if show_stats and effect_size is not None and pvalue is not None:
-        # Determine comparison sign for p-value
         pvalue_sign = "<" if pvalue < 0.05 else ">"
-
-        # Add effect size and p-value annotation
-        plt.text(
-            0.5, 0.9, f"Effect size: {effect_size:.2f}", transform=plt.gca().transAxes
+        ax2.text(
+            0.5, 0.90, f"Effect size: {effect_size:.2f}",
+            transform=ax2.transAxes, fontsize=_FS_TICK,
         )
-        plt.text(
-            0.5,
-            0.85,
-            f"p-value: {pvalue:.2e} {pvalue_sign} .05",
-            transform=plt.gca().transAxes,
+        ax2.text(
+            0.5, 0.82, f"p-value: {pvalue:.2e} {pvalue_sign} .05",
+            transform=ax2.transAxes, fontsize=_FS_TICK,
         )
 
-    # Adjust the layout
-    plt.tight_layout(
-        rect=[0, 0, 1, 0.95]
-    )  # Adjust rect to make space for the main title
-    plt.savefig(output_filename, format="svg")
+    plt.tight_layout(rect=[0, 0, 1, 0.95])
+    plt.savefig(output_filename, format="svg", dpi=300, bbox_inches="tight")
     plt.show()
 
 
-def create_violin_plot(data, x, y, hue, title, ylabel, significant_syllables):
+def create_violin_plot(data, x, y, hue, title, ylabel, significant_syllables,
+                       palette="default"):
     """
-    plots the significant syllables in a violin plot
+    Plots significant syllables as split violin plots.
 
-    Parameters:
-    data (pd.DataFrame): The data to plot (e.g., heading mean, angular velocity, duration, etc.)
-    x (str): The x-axis variable to plot (e.g., syllable index)
-    y (str): The y-axis variable to plot (e.g., angular velocity)
-    hue (str): The hue variable to plot (e.g., sefl vs. control, young vs. old)
-    title (str): The title of the plot
-    ylabel (str): The label of the y-axis (e.g., 'Angular Velocity (deg/s)')
-    significant_syllables (list): The list of significant syllables to plot
-
+    Parameters
+    ----------
+    data : pd.DataFrame
+    x : str
+        X-axis variable (e.g. syllable index).
+    y : str
+        Y-axis variable (e.g. angular velocity).
+    hue : str
+        Grouping variable.
+    title : str
+    ylabel : str
+    significant_syllables : list
+    palette : str
+        Color palette: 'default', 'palette2', or 'palette3'.
     """
+    colors = COLOR_PALETTES.get(palette, COLOR_PALETTES["default"])
     data = data[data["syllable"].isin(significant_syllables)]
     if data.empty:
         return print("No significant syllables to plot")
-    plt.figure(figsize=(10, 6))
-    ax = sns.violinplot(data=data, x=x, y=y, hue=hue, split=True, inner="quartile")
-    plt.title(title)
-    plt.xlabel("Syllable Index")
-    plt.ylabel(ylabel)
 
+    fig_h = _LONG_SIDE
+    fig_w = _LONG_SIDE * (4 / 3)   # landscape: longer side is width
+    plt.figure(figsize=(fig_w, fig_h))
+    sns.violinplot(data=data, x=x, y=y, hue=hue, split=True, inner="quartile",
+                   palette=colors, linewidth=_LW)
+    plt.title(title, fontsize=_FS_TITLE)
+    plt.xlabel("Syllable Index", fontsize=_FS_LABEL)
+    plt.ylabel(ylabel, fontsize=_FS_LABEL)
+    plt.xticks(fontsize=_FS_TICK)
+    plt.yticks(fontsize=_FS_TICK)
     plt.show()
 
 
@@ -132,43 +194,60 @@ def create_box_strip_plot(
     syllable_map=None,
     ylim=None,
     output_filename=None,
+    palette="default",
 ):
     """
-    plots the significant syllables in a box plot
+    Plots significant syllables as box plots.
 
-    Parameters:
-    data (pd.DataFrame): The data to plot (e.g., heading mean, angular velocity, duration, etc.)
-    x (str): The x-axis variable to plot (e.g., syllable index)
-    y (str): The y-axis variable to plot (e.g., angular velocity)
-    hue (str): The hue variable to plot (e.g., sefl vs. control, young vs. old)
-    title (str): The title of the plot
-    ylabel (str): The label of the y-axis (e.g., 'Angular Velocity (deg/s)')
-    significant_syllables (list): The list of significant syllables to plot
-
+    Parameters
+    ----------
+    data : pd.DataFrame
+    x : str
+        X-axis variable (e.g. syllable index or name).
+    y : str
+        Y-axis variable.
+    hue : str
+        Grouping variable.
+    title : str
+    ylabel : str
+    significant_syllables : list
+    syllable_map : dict, optional
+        Mapping from syllable index to name.
+    ylim : list, optional
+        Y-axis limits.
+    output_filename : str, optional
+        If provided, saves the figure to this path as SVG.
+    palette : str
+        Color palette: 'default', 'palette2', or 'palette3'.
     """
+    colors = COLOR_PALETTES.get(palette, COLOR_PALETTES["default"])
     data = data[data["syllable"].isin(significant_syllables)]
     if data.empty:
         return print("No significant syllables to plot")
 
     if syllable_map and x == "syllable_name":
-        x_order = [syllable_map[s] for s in significant_syllables]
-        x_order = natsorted(x_order)
+        x_order = natsorted([syllable_map[s] for s in significant_syllables])
     else:
         x_order = None
 
-    plt.figure(figsize=(10, 6))
-    sns.boxplot(data=data, x=x, y=y, hue=hue, showfliers=False, order=x_order)
+    fig_h = _LONG_SIDE
+    fig_w = _LONG_SIDE * (4 / 3)
+    plt.figure(figsize=(fig_w, fig_h))
+    sns.boxplot(data=data, x=x, y=y, hue=hue, showfliers=False,
+                order=x_order, palette=colors, linewidth=_LW)
 
-    plt.title(title, fontsize=20, x=0.5)
+    plt.title(title, fontsize=_FS_TITLE)
     plt.xlabel(None)
-    plt.ylabel(ylabel)
-    plt.xticks(size=18, rotation=45)
-    plt.yticks(size=18)
-    plt.ylabel(ylabel, fontsize=18)
-    plt.legend().set_title(None)
-    plt.legend(fontsize=18, loc="upper right")
+    plt.ylabel(ylabel, fontsize=_FS_LABEL)
+    plt.xticks(fontsize=_FS_TICK, rotation=45)
+    plt.yticks(fontsize=_FS_TICK)
+    legend = plt.legend(fontsize=_FS_LEGEND, loc="upper right")
+    legend.set_title(None)
+
+    if ylim:
+        plt.ylim(ylim)
 
     if output_filename:
-        plt.savefig(output_filename, format="svg")
+        plt.savefig(output_filename, format="svg", dpi=300, bbox_inches="tight")
 
     plt.show()
